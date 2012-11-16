@@ -1,0 +1,36 @@
+body {
+  overflow: visible;
+  padding-top: 60px;
+  font-size: 14px;
+}
+.hero-unit {
+  padding: 40px;
+}
+.hero-unit h1 {
+  font-size: 36px;
+}
+p {
+  font-size: 14px;
+}
+.main h1 {
+  padding-top: 20px;
+  margin-bottom: 13px;
+  border-bottom: 1px solid #DDD;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+}
+li {
+  line-height: 18px;
+}
+blockquote, blockquote p {
+  font-size: 10px;
+  color: #666666 !important;
+}
+pre {
+  margin: 10px;
+}
+footer * {
+  font-size: 10px;
+  text-align: center;
+}
