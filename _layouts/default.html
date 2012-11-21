@@ -1,3 +1,5 @@
+{% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
+{% if locale == "" %}{% assign locale = "en" %}{% endif %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -19,8 +21,8 @@
       <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
 
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/bootstrap_overrides.css" rel="stylesheet">
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/bootstrap_overrides.css" rel="stylesheet">
   </head>
 
   <body>
@@ -29,7 +31,7 @@
     <div class="topbar">
       <div class="topbar-inner">
         <div class="container-fluid">
-          <a class="brand" href="/">{{ site.title }}</a>
+          <a class="brand" href="/">{{ site.name }}</a>
         </div>
       </div>
     </div>
@@ -38,15 +40,19 @@
 
       <div class="sidebar">
         <div class="well">
-          <h5>Main</h5>
-          <ul>
-            <li><a href="#system_requirements">System Requirements</a></li>
-            <li><a href="#how_to_install">How To Install</a></li>
-            <li><a href="#how_to_use">How To Use</a></li>
-            <li><a href="#supported">Supported</a></li>
-            <li><a href="#not_supported_yet">NOT Supported yet</a></li>
-            <li><a href="#license">License</a></li>
-          </ul>
+         {% if locale == "ja" %}
+          <div style="text-align:center"><a id="lang-link" href="../en/index.html">English</a> | Japanese</div>
+         {% else %}
+          <div style="text-align:center">English | <a id="lang-link" href="../ja/index.html">Japanese</a></div>
+         {% endif %}
+          <br />
+          <script>
+            var currentPage = location.href.substring(location.href.lastIndexOf("/") + 1);
+            document.getElementById("lang-link").href="../{% if locale == "ja" %}en{% else %}ja{% endif %}/"+ currentPage;
+          </script>
+
+          {% include sidebar.html %}
+
         </div>
       </div>
 
@@ -55,11 +61,11 @@
         <div class="hero-unit">
           <div class="row">
             <div class="span3">
-              <img src="images/hero.png" />
+              <img src="/images/hero.png" />
             </div>
             <div class="span11">
               <h1>Facebook4J</h1>
-              <p>A Java library for the Facebook Graph API. <br />This library provides the ease of use like Twitter4J. Facebook4J is an unofficial library.</p>
+              <p>A Java library for the Facebook Graph API. <br />This library provides the ease of use like Twitter4J. <br />Facebook4J is an unofficial library.</p>
               <div>
                 <p style="float:left; margin-right:20px;"><a class="btn primary large" href="https://github.com/roundrop/facebook4j">Visit the github project &raquo;</a></p>
                 <div style="float:left;" class="fb-like" data-href="http://facebook4j.org" data-send="false" data-layout="button_count" data-width="450" data-show-faces="true"></div>
