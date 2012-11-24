@@ -23,7 +23,7 @@ Java 5 or later
       <version>[1.0,)</version>
     </dependency>
 ## Download
-Download jar file from [here](http://facebook4j.org/download/facebook4j-core-1.0.0.jar).  
+Download jar file from [here](http://facebook4j.org/download/facebook4j-core-1.0.1.jar).  
 
 # How To Use {#how_to_use}
 Create a standard properties file named "facebook4j.properties". Place it to either the current directory, root of the classpath directory. 
