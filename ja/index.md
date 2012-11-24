@@ -16,6 +16,7 @@ Facebook非公式のライブラリです。
 Java 5 またはそれ以降
 
 # 導入方法 {#how_to_install}
+
 ## Maven統合
 pom.xml に以下のように記述してください。
 
@@ -24,6 +25,7 @@ pom.xml に以下のように記述してください。
       <artifactId>facebook4j-core</artifactId>
       <version>[1.0,)</version>
     </dependency>
+
 ## ダウンロード
 [こちら](http://facebook4j.org/download/facebook4j-core-1.0.1.jar) からダウンロードしてください。 
 

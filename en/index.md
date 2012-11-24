@@ -16,12 +16,15 @@ Facebook4J is featuring:
 Java 5 or later
 
 # How To Install {#how_to_install}
+
 ## Maven Integration
+
     <dependency>
       <groupId>org.facebook4j</groupId>
       <artifactId>facebook4j-core</artifactId>
       <version>[1.0,)</version>
     </dependency>
+
 ## Download
 Download jar file from [here](http://facebook4j.org/download/facebook4j-core-1.0.1.jar).  
 
