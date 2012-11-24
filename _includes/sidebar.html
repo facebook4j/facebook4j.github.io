@@ -1,7 +1,7 @@
 {% if locale == "ja" %}
 
-<h5>トップ</h5>
-<ul>
+<h5><a href="/ja/index.html">トップ</a></h5>
+<ul style="display: {% if current_html == "index.html" %}block{% else %}none{% endif %};">
   <li><a href="#introduction">Facebook4Jとは？</a></li>
   <li><a href="#system_requirements">システム要件</a></li>
   <li><a href="#how_to_install">導入方法</a></li>
@@ -10,11 +10,29 @@
   <li><a href="#not_supported_yet">まだサポートしていないAPI</a></li>
   <li><a href="#license">ライセンス</a></li>
 </ul>
+<hr />
+<div>
+  <ul>
+  <li>
+    <a href="/en/javadoc/index.html">Javadoc</a>
+  </li>
+  <li>
+    <a href="https://github.com/roundrop/facebook4j/issues">課題管理</a>
+  </li>
+  <li>
+    <a href="https://twitter.com/facebook4j" class="twitter-follow-button" data-show-count="false">Follow @facebook4j</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </li>
+  <li>
+    <a href="http://groups.google.com/group/facebook4j-j">メーリングリスト</a>
+  </li>
+  </ul>
+</div>
 
 {% else %}
 
-<h5>Main</h5>
-<ul>
+<h5><a href="/en/index.html">Main</a></h5>
+<ul style="display: {% if current_html == "index.html" %}block{% else %}none{% endif %};">
   <li><a href="#introduction">Introduction</a></li>
   <li><a href="#system_requirements">System Requirements</a></li>
   <li><a href="#how_to_install">How To Install</a></li>
@@ -23,5 +41,25 @@
   <li><a href="#not_supported_yet">NOT Supported yet</a></li>
   <li><a href="#license">License</a></li>
 </ul>
+<hr />
+<div>
+  <ul>
+  <li>
+    <a href="/en/javadoc/index.html">Javadoc</a>
+  </li>
+  <li>
+    <a href="https://github.com/roundrop/facebook4j/issues">Issue Tracker</a>
+  </li>
+  <li>
+    <a href="https://twitter.com/facebook4j" class="twitter-follow-button" data-show-count="false">Follow @facebook4j</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </li>
+  {% comment %}
+  <li>
+    <a href="http://groups.google.com/group/facebook4j">Mailing list</a>
+  </li>
+  {% endcomment %}
+  </ul>
+</div>
 
 {% endif %}

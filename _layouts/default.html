@@ -1,5 +1,6 @@
 {% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 {% if locale == "" %}{% assign locale = "en" %}{% endif %}
+{% capture current_html %}{{ page.url | split: "/" | last | split: "#" | first }}{% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -41,15 +42,11 @@
       <div class="sidebar">
         <div class="well">
          {% if locale == "ja" %}
-          <div style="text-align:center"><a id="lang-link" href="../en/index.html">English</a> | Japanese</div>
+          <div style="text-align:center"><a id="lang-link" href="../en/{{ current_html }}">English</a> | Japanese</div>
          {% else %}
-          <div style="text-align:center">English | <a id="lang-link" href="../ja/index.html">Japanese</a></div>
+          <div style="text-align:center">English | <a id="lang-link" href="../ja/{{ current_html }}">Japanese</a></div>
          {% endif %}
           <br />
-          <script>
-            var currentPage = location.href.substring(location.href.lastIndexOf("/") + 1);
-            document.getElementById("lang-link").href="../{% if locale == "ja" %}en{% else %}ja{% endif %}/"+ currentPage;
-          </script>
 
           {% include sidebar.html %}
 
