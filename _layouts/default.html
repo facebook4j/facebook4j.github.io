@@ -1,6 +1,6 @@
 {% capture locale %}{{ page.url | truncate: 3, "" | remove: "/" }}{% endcapture %}
 {% if locale == "" %}{% assign locale = "en" %}{% endif %}
-{% capture current_html %}{{ page.url | split: "/" | last | split: "#" | first }}{% endcapture %}
+{% capture current_html %}{{ page.url | remove: "/en/" | remove: "/ja/" }}{% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
