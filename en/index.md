@@ -4,10 +4,18 @@ title: Facebook4J - A Java library for the Facebook Graph API
 description: Facebook4J is a Java library for the Facebook Graph API. This library provides the ease of use like Twitter4J. Facebook4J is an unofficial library.
 keywords: facebook,java,facebook4j
 ---
-# System Requirements
+# Introduction {#introduction}
+Facebook4J is an unofficial Java library for the Facebook Graph API.  
+Facebook4J is featuring:  
+
+* 100% Pure Java - works on any Java Platform version 5 or later
+* Zero dependency : No additional jars required
+* Built-in OAuth support
+
+# System Requirements {#system_requirements}
 Java 5 or later
 
-# How To Install
+# How To Install {#how_to_install}
 ## Maven Integration
     <dependency>
       <groupId>org.facebook4j</groupId>
@@ -17,7 +25,7 @@ Java 5 or later
 ## Download
 Download jar file from [here](http://facebook4j.org/download/facebook4j-core-1.0.0.jar).  
 
-# How To Use
+# How To Use {#how_to_use}
 Create a standard properties file named "facebook4j.properties". Place it to either the current directory, root of the classpath directory. 
 
     debug=true
@@ -38,7 +46,7 @@ Code examples of Server-Side Authentication and post status message implementati
 
 An example of using Facebook4J in an Android app is available at [https://github.com/roundrop/facebook4j-android-example](https://github.com/roundrop/facebook4j-android-example)
 
-# Supported
+# Supported {#supported}
 * [Server-Side Authentication](https://developers.facebook.com/docs/authentication/server-side/ "Server-Side Authentication")
 * [User](https://developers.facebook.com/docs/reference/api/user/ "User")
 * [Achievement(Instance)](https://developers.facebook.com/docs/reference/api/achievement/ "Achievement(Instance)")
@@ -61,7 +69,7 @@ An example of using Facebook4J in an Android app is available at [https://github
 * [Search](https://developers.facebook.com/docs/reference/api/#searching)
 * [FQL](https://developers.facebook.com/docs/reference/fql/)
 
-# NOT Supported yet
+# NOT Supported yet {#not_supported_yet}
 * [Application](https://developers.facebook.com/docs/reference/api/application/ "Application")
 * [Page](https://developers.facebook.com/docs/reference/api/page/ "Page")
 * [Offer](https://developers.facebook.com/docs/reference/api/offer/ "Offer")
@@ -71,7 +79,7 @@ An example of using Facebook4J in an Android app is available at [https://github
 * [Batch Requests](https://developers.facebook.com/docs/reference/api/batch/ "Batch Requests")
 * [Real-time Updates](https://developers.facebook.com/docs/reference/api/realtime/ "Real-time Updates")
 
-# License
+# License {#license}
 Facebook4J is released under Apache License 2.0.
 
 Facebook4J includes software from Twitter4J to handle HTTP request/response and greatly internal logic. You can see the license term at [http://twitter4j.org/en/index.html#license](http://twitter4j.org/en/index.html#license)
