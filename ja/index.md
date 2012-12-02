@@ -27,7 +27,7 @@ pom.xml に以下のように記述してください。
     </dependency>
 
 ## ダウンロード
-[こちら](http://facebook4j.org/download/facebook4j-core-1.0.1.jar) からダウンロードしてください。 
+[こちら](http://facebook4j.org/download/facebook4j-core-1.1.0.jar) からダウンロードしてください。 
 
 # 使い方 {#how_to_use}
 標準的なプロパティファイルを "facebook4j.properties" という名前で保存します。 "facebook4j.properties" はカレントディレクトリ、またはクラスパスのルート(WEB-INF/classes等)に配置してください。
