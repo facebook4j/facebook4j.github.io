@@ -55,6 +55,7 @@
 
       <div class="content">
 
+        {% if current_html == "index.html" %}
         <div class="hero-unit">
           <div class="row">
             <div class="span3">
@@ -71,6 +72,8 @@
             </div>
           </div>
         </div>
+        {% endif %}
+
         <div class="main">
           {{ content }}
         </div>

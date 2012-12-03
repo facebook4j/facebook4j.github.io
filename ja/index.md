@@ -27,7 +27,7 @@ pom.xml に以下のように記述してください。
     </dependency>
 
 ## ダウンロード
-[こちら](http://facebook4j.org/download/facebook4j-core-1.0.1.jar) からダウンロードしてください。 
+[こちら](http://facebook4j.org/download/facebook4j-core-1.1.0.jar) からダウンロードしてください。 
 
 # 使い方 {#how_to_use}
 標準的なプロパティファイルを "facebook4j.properties" という名前で保存します。 "facebook4j.properties" はカレントディレクトリ、またはクラスパスのルート(WEB-INF/classes等)に配置してください。
@@ -39,16 +39,6 @@ pom.xml に以下のように記述してください。
 
 Java が分かっていれば [JavaDoc](http://facebook4j.org/en/javadoc/index.html "JavaDoc") を見るのが早いです。  
 [facebook4j.Facebook](http://facebook4j.org/en/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") が最初に見るべきインターフェイスです。
-
-## コード例
-
-### OAuth
-
-OAuth 及び メッセージ投稿の実装例が [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) にあります。
-
-### Android
-
-Android で Facebook4J を使った実装例が [https://github.com/roundrop/facebook4j-android-example](https://github.com/roundrop/facebook4j-android-example) にあります。
 
 # サポートしているAPI {#supported}
 * [Server-Side Authentication](https://developers.facebook.com/docs/authentication/server-side/ "Server-Side Authentication")
