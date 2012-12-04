@@ -9,7 +9,6 @@ keywords: コードサンプル,facebook4j
 ## Facebook インスタンスの取得 {#getting_facebook_instance}
 Facebook4J を使うには、まず Facebook インスタンスを取得する必要があります。  
 FacebookFactory.getInstance() で Facebook インスタンスを得ることができます。  
-Facebook インスタンスは再利用可能でスレッドセーフです。
 
     Facebook facebook = new FacebookFactory().getInstance();
 
