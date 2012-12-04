@@ -7,7 +7,7 @@ keywords: examples,facebook4j
 # Code Examples
 
 ## Getting Facebook Instance {#getting_facebook_instance}
-At first it is necessary to acquire Facebook instance to use acebook4J.  
+At first it is necessary to acquire Facebook instance to use Facebook4J.  
 You can get Facebook instance in FacebookFactory.getInstance().
 
     Facebook facebook = new FacebookFactory().getInstance();
