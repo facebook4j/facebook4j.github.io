@@ -35,6 +35,23 @@ You can publish a message via Facebook.postStatusMessage() method.
 
 - - -
 
+## Publishing a link {#share_link}
+You can publish a link via Facebook.postFeed() method.
+
+    PostUpdate post = new PostUpdate(new URL("http://facebook4j.org"))
+                        .picture(new URL("http://facebook4j.org/images/hero.png"))
+                        .name("Facebook4J - A Java library for the Facebook Graph API")
+                        .caption("facebook4j.org")
+                        .description("Facebook4J is a Java library for the Facebook Graph API.");
+    facebook.postFeed(post);
+
+Facebook.postLink() method is simple way to post.
+
+    facebook.postLink(new URL("http://facebook4j.org"));
+    facebook.postLink(new URL("http://facebook4j.org"), "A Java library for the Facebook Graph API");
+
+- - -
+
 ## Getting News Feed {#getting_newsfeed}
 Facebook.getHome() returns a List of user's latest News Feed.
 
