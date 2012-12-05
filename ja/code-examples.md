@@ -13,6 +13,7 @@ FacebookFactory.getInstance() で Facebook インスタンスを得ることが�
     Facebook facebook = new FacebookFactory().getInstance();
 
 このとき、 facebook4j.properties に App ID/App Secret/アクセストークン/パーミッション が 記載されていれば、返される Facebook インスタンスにそれらは読み込まれています。  
+facebook4j.properties の設定方法については [設定 | Facebook4J - A Java library for the Facebook Graph API](/ja/configuration.html) のページをご覧ください。  
 記載がない場合でも、以下のようにすれば後から設定可能です。
 
     facebook.setOAuthAppId(appId, appSecret);

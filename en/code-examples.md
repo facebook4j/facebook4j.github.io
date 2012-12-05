@@ -13,6 +13,7 @@ You can get Facebook instance in FacebookFactory.getInstance().
     Facebook facebook = new FacebookFactory().getInstance();
 
 If App ID / App Secret / access token / access permission are listed in facebook4j.properties then, they are set in Facebook instance given back.  
+See [Configuration | Facebook4J - A Java library for the Facebook Graph API](/en/configuration.html) for the detail.  
 When they are not listed, it is setable later as follows:
 
     facebook.setOAuthAppId(appId, appSecret);
