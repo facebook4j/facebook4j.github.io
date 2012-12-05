@@ -29,25 +29,9 @@ Java 5 or later
 Download jar file from [here](http://facebook4j.org/download/facebook4j-core-1.1.0.jar).  
 
 # How To Use {#how_to_use}
-Create a standard properties file named "facebook4j.properties". Place it to either the current directory, root of the classpath directory. 
-
-    debug=true
-    oauth.appId=****************
-    oauth.appSecret=********************************
-    oauth.permissions=email,publish_stream
-
+Just add facebook4j-core-1.1.0.jar to your application classpath.  
 If you are familiar with Java language, looking into the [JavaDoc](http://facebook4j.org/en/javadoc/index.html "JavaDoc") should be the shortest way for you to get started.
 [facebook4j.Facebook](http://facebook4j.org/en/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") interface is the one you may want to look at first.
-
-## Code Examples
-
-### Server-Side Authentication
-
-Code examples of Server-Side Authentication and post status message implementation is available at [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example)
-
-### Android
-
-An example of using Facebook4J in an Android app is available at [https://github.com/roundrop/facebook4j-android-example](https://github.com/roundrop/facebook4j-android-example)
 
 # Supported {#supported}
 * [Server-Side Authentication](https://developers.facebook.com/docs/authentication/server-side/ "Server-Side Authentication")

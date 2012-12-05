@@ -30,13 +30,7 @@ pom.xml に以下のように記述してください。
 [こちら](http://facebook4j.org/download/facebook4j-core-1.1.0.jar) からダウンロードしてください。 
 
 # 使い方 {#how_to_use}
-標準的なプロパティファイルを "facebook4j.properties" という名前で保存します。 "facebook4j.properties" はカレントディレクトリ、またはクラスパスのルート(WEB-INF/classes等)に配置してください。
-
-    debug=true
-    oauth.appId=****************
-    oauth.appSecret=********************************
-    oauth.permissions=email,publish_stream
-
+facebook4j-core-1.1.0.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
 Java が分かっていれば [JavaDoc](http://facebook4j.org/en/javadoc/index.html "JavaDoc") を見るのが早いです。  
 [facebook4j.Facebook](http://facebook4j.org/en/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") が最初に見るべきインターフェイスです。
 
