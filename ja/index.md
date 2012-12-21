@@ -27,10 +27,10 @@ pom.xml に以下のように記述してください。
     </dependency>
 
 ## ダウンロード
-[こちら](http://facebook4j.org/download/facebook4j-core-1.1.0.jar) からダウンロードしてください。 
+[こちら](http://facebook4j.org/download/facebook4j-core-1.1.1.jar) からダウンロードしてください。 
 
 # 使い方 {#how_to_use}
-facebook4j-core-1.1.0.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
+facebook4j-core-1.1.1.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
 Java が分かっていれば [JavaDoc](http://facebook4j.org/en/javadoc/index.html "JavaDoc") を見るのが早いです。  
 [facebook4j.Facebook](http://facebook4j.org/en/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") が最初に見るべきインターフェイスです。  
 コード例は [コードサンプル | Facebook4J - A Java library for the Facebook Graph API](/ja/code-examples.html) をご覧ください。
