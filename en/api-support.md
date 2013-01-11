@@ -249,6 +249,7 @@ keywords: API Support,facebook4j
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/">/PHOTO_ID</a></td><td><a href="/en/javadoc/facebook4j/api/PhotoMethods.html#getPhoto(java.lang.String)">getPhoto()</a></td></tr>
+<tr><td>DELETE</td><td>/PHOTO_ID</td><td><a href="/en/javadoc/facebook4j/api/PhotoMethods.html#deletePhoto(java.lang.String)">deletePhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/">/PHOTO_ID/comments</a><br />(see: Connections - comments)</td><td><a href="/en/javadoc/facebook4j/api/PhotoMethods.html#getPhotoComments(java.lang.String)">getPhotoComments()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/#comments">/PHOTO_ID/comments</a></td><td><a href="/en/javadoc/facebook4j/api/PhotoMethods.html#commentPhoto(java.lang.String,%20java.lang.String)">commentPhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/">/PHOTO_ID/likes</a><br />(see: Connections - likes)</td><td><a href="/en/javadoc/facebook4j/api/PhotoMethods.html#getPhotoLikes(java.lang.String)">getPhotoLikes()</a></td></tr>

@@ -27,46 +27,13 @@ pom.xml に以下のように記述してください。
     </dependency>
 
 ## ダウンロード
-[こちら](http://facebook4j.org/download/facebook4j-core-1.1.1.jar) からダウンロードしてください。 
+[こちら](http://facebook4j.org/download/facebook4j-core-1.1.2.jar) からダウンロードしてください。 
 
 # 使い方 {#how_to_use}
-facebook4j-core-1.1.1.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
+facebook4j-core-1.1.2.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
 Java が分かっていれば [JavaDoc](http://facebook4j.org/en/javadoc/index.html "JavaDoc") を見るのが早いです。  
 [facebook4j.Facebook](http://facebook4j.org/en/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") が最初に見るべきインターフェイスです。  
 コード例は [コードサンプル | Facebook4J - A Java library for the Facebook Graph API](/ja/code-examples.html) をご覧ください。
-
-# サポートしているAPI {#supported}
-* [Server-Side Authentication](https://developers.facebook.com/docs/authentication/server-side/ "Server-Side Authentication")
-* [User](https://developers.facebook.com/docs/reference/api/user/ "User")
-* [Achievement(Instance)](https://developers.facebook.com/docs/reference/api/achievement/ "Achievement(Instance)")
-* [Album](https://developers.facebook.com/docs/reference/api/album/ "Album")
-* [Checkin](https://developers.facebook.com/docs/reference/api/checkin/ "Checkin")
-* [Comment](https://developers.facebook.com/docs/reference/api/Comment/ "Comment")
-* [Domain](https://developers.facebook.com/docs/reference/api/domain/ "Domain")
-* [Event](https://developers.facebook.com/docs/reference/api/event/ "Event")
-* [FriendList](https://developers.facebook.com/docs/reference/api/FriendList/ "FriendList")
-* [Group](https://developers.facebook.com/docs/reference/api/group/ "Group")
-* [Insights](https://developers.facebook.com/docs/reference/api/insights/ "Insights")
-* [Link](https://developers.facebook.com/docs/reference/api/link/ "Link")
-* [Message](https://developers.facebook.com/docs/reference/api/message/ "Message")
-* [Note](https://developers.facebook.com/docs/reference/api/note/ "Note")
-* [Photo](https://developers.facebook.com/docs/reference/api/photo/ "Photo")
-* [Post](https://developers.facebook.com/docs/reference/api/post/ "Post")
-* [Question](https://developers.facebook.com/docs/reference/api/question/ "Question")
-* [Status message](https://developers.facebook.com/docs/reference/api/status/ "Status message")
-* [Video](https://developers.facebook.com/docs/reference/api/video/ "Video")
-* [Search](https://developers.facebook.com/docs/reference/api/#searching)
-* [FQL](https://developers.facebook.com/docs/reference/fql/)
-
-# まだサポートしていないAPI {#not_supported_yet}
-* [Application](https://developers.facebook.com/docs/reference/api/application/ "Application")
-* [Page](https://developers.facebook.com/docs/reference/api/page/ "Page")
-* [Offer](https://developers.facebook.com/docs/reference/api/offer/ "Offer")
-* [Order ](https://developers.facebook.com/docs/reference/api/order/ "Order ")
-* [Review](https://developers.facebook.com/docs/reference/api/Review/ "Review")
-* [Thread](https://developers.facebook.com/docs/reference/api/thread/ "Thread")
-* [Batch Requests](https://developers.facebook.com/docs/reference/api/batch/ "Batch Requests")
-* [Real-time Updates](https://developers.facebook.com/docs/reference/api/realtime/ "Real-time Updates")
 
 # ライセンス {#license}
 Facebook4J は Apache License 2.0 に基づいてリリースされています。
