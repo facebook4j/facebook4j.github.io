@@ -22,7 +22,7 @@ Java 5 or later
     <dependency>
       <groupId>org.facebook4j</groupId>
       <artifactId>facebook4j-core</artifactId>
-      <version>[1.0,)</version>
+      <version>[1.1,)</version>
     </dependency>
 
 ## Download
