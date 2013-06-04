@@ -1,7 +1,7 @@
 ---
 layout: default
-title: 未サポート | Facebook4J - A Java library for the Facebook Graph API
-description: Facebook4Jでまだ未サポートのフィーチャー
+title: NOT Supported yet | Facebook4J - A Java library for the Facebook Graph API
+description: NOT Supported feature info
 keywords: facebook4j
 ---
 # NOT Supported yet
