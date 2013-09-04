@@ -26,12 +26,17 @@ Java 5 or later
     </dependency>
 
 ## Download
-Download jar file from [here](http://facebook4j.org/download/facebook4j-core-1.1.12.jar).  
+
+* Latest stable version  
+[facebook4j-core-1.1.12.jar](/download/facebook4j-core-1.1.12.jar)
+
+* Latest snapshot build  
+[facebook4j-core-2.0.0-SNAPSHOT.jar](/download/facebook4j-core-2.0.0-SNAPSHOT.jar)
 
 # How To Use {#how_to_use}
 Just add facebook4j-core-1.1.12.jar to your application classpath.  
-If you are familiar with Java language, looking into the [JavaDoc](http://facebook4j.org/en/javadoc/index.html "JavaDoc") should be the shortest way for you to get started.
-[facebook4j.Facebook](http://facebook4j.org/en/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") interface is the one you may want to look at first.  
+If you are familiar with Java language, looking into the [JavaDoc](/en/javadoc/index.html "JavaDoc") should be the shortest way for you to get started.
+[facebook4j.Facebook](/en/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") interface is the one you may want to look at first.  
 Code examples: [Code Examples | Facebook4J - A Java library for the Facebook Graph API](/en/code-examples.html)
 
 # License {#license}

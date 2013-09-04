@@ -27,7 +27,12 @@ pom.xml に以下のように記述してください。
     </dependency>
 
 ## ダウンロード
-[こちら](http://facebook4j.org/download/facebook4j-core-1.1.12.jar) からダウンロードしてください。 
+
+* 最新安定バージョン  
+[facebook4j-core-1.1.12.jar](/download/facebook4j-core-1.1.12.jar)
+
+* 最新スナップショットビルド  
+[facebook4j-core-2.0.0-SNAPSHOT.jar](/download/facebook4j-core-2.0.0-SNAPSHOT.jar)
 
 # 使い方 {#how_to_use}
 facebook4j-core-1.1.12.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
