@@ -31,7 +31,7 @@ Java 5 or later
 [facebook4j-core-1.1.12.jar](/download/facebook4j-core-1.1.12.jar)
 
 * Latest snapshot build  
-[facebook4j-core-2.0.0-SNAPSHOT.jar](/download/facebook4j-core-2.0.0-SNAPSHOT.jar)
+[facebook4j-core-2.0.0-SNAPSHOT.zip](/download/facebook4j-core-2.0.0-SNAPSHOT.zip)
 
 # How To Use {#how_to_use}
 Just add facebook4j-core-1.1.12.jar to your application classpath.  
