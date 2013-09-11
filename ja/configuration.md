@@ -19,7 +19,7 @@ Facebook4J はいくつもの設定可能なプロパティが存在します。
 - - -
 
 ## ConfigurationBuilder から
-[ConfigurationBuilder](/en/javadoc/facebook4j/conf/ConfigurationBuilder.html) クラスを使うと以下のようにプログラムから設定をすることができます。
+[ConfigurationBuilder](/javadoc/facebook4j/conf/ConfigurationBuilder.html) クラスを使うと以下のようにプログラムから設定をすることができます。
 
     ConfigurationBuilder cb = new ConfigurationBuilder();
     cb.setDebugEnabled(true)

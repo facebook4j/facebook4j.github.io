@@ -19,7 +19,7 @@ Save a standard properties file named "facebook4j.properties". Place it to eithe
 - - -
 
 ## via ConfigurationBuilder
-You can use [ConfigurationBuilder](/en/javadoc/facebook4j/conf/ConfigurationBuilder.html) class to configure Facebook4J programatically as follows: 
+You can use [ConfigurationBuilder](/javadoc/facebook4j/conf/ConfigurationBuilder.html) class to configure Facebook4J programatically as follows: 
 
     ConfigurationBuilder cb = new ConfigurationBuilder();
     cb.setDebugEnabled(true)
