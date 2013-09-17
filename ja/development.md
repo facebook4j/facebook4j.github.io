@@ -37,7 +37,7 @@ Facebook4J はアトラシアン社の提供する課題管理ツール、[JIRA]
 
 # 継続ビルド {#ci}
 Facebook4Jは継続ビルドに [Jenkins](https://roundrop.ci.cloudbees.com/job/F4J/) を使っています。  
-！[Jenkins](https://raw.github.com/jenkinsci/jenkins/master/src/site/resources/jenkins_logo.png)  
+![Jenkins](https://raw.github.com/jenkinsci/jenkins/master/src/site/resources/jenkins_logo.png)  
 [CloudBees](http://www.cloudbees.com) 上で運用しています。
 
 # IDE {#ide}
