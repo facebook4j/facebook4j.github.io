@@ -37,7 +37,7 @@ Running on [Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/o
 
 # Continuous Integration {#ci}
 Facebook4J is built continuously by [Jenkins](https://roundrop.ci.cloudbees.com/job/F4J/) .  
-！[Jenkins](https://raw.github.com/jenkinsci/jenkins/master/src/site/resources/jenkins_logo.png)  
+[Jenkins](https://raw.github.com/jenkinsci/jenkins/master/src/site/resources/jenkins_logo.png)  
 Running on [CloudBees](http://www.cloudbees.com) .
 
 # IDE {#ide}
