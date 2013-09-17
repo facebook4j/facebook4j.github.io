@@ -1,0 +1,11 @@
+facebook4j
+facebook4j.api
+facebook4j.auth
+facebook4j.conf
+facebook4j.internal.http
+facebook4j.internal.json
+facebook4j.internal.logging
+facebook4j.internal.org.json
+facebook4j.internal.util
+facebook4j.json
+facebook4j.management

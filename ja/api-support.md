@@ -33,6 +33,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/album/#comments">/ALBUM_ID/comments</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#commentAlbum(java.lang.String,%20java.lang.String)">commentAlbum()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/album/">/ALBUM_ID/picture</a><br />(see: Connections - picture)</td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbumCoverPhoto(java.lang.String)">getAlbumCoverPhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/albums</a><br />(see: Connections - albums)</td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbums()">getAlbums()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/albums</a><br />(see: Connections - albums)</td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbums()">getAlbums()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#albums">/USER_ID/albums</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#createAlbum(facebook4j.AlbumCreate)">createAlbum()</a></td></tr>
 </tbody></table>
 
@@ -47,6 +48,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/checkin/#likes">/CHECKIN_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#likeCheckin(java.lang.String)">likeCheckin()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/checkin/#likes">/CHECKIN_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#unlikeCheckin(java.lang.String)">unlikeCheckin</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/checkins</a><br />(see: Connections - checkins)</td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#getCheckins()">getCheckins()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/checkins</a><br />(see: Connections - checkins)</td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#getCheckins()">getCheckins()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#checkins">/USER_ID/checkins</a></td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#checkin(facebook4j.CheckinCreate)">checkin()</a></td></tr>
 </tbody></table>
 
@@ -77,9 +79,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/">/EVENT_ID</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getEvent(java.lang.String)">getEvent()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#events">/EVENT_ID</a><br />(see: Edit section)</td><td><a href="/javadoc/facebook4j/api/EventMethods.html#editEvent(java.lang.String,%20facebook4j.EventUpdate)">editEvent()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#events">/EVENT_ID</a><br />(see: Delete section)</td><td><a href="/javadoc/facebook4j/api/EventMethods.html#deleteEvent(java.lang.String)">deleteEvent()</a></td></tr>
-<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/">/EVENT_ID/feed</a><br />(see: Connections - feed)</td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getEventFeed(java.lang.String)">getEventFeed()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#feed">/EVENT_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#postEventLink(java.lang.String,%20java.net.URL)">postEventLink()</a></td></tr>
-<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#feed">/EVENT_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#postEventFeed(java.lang.String,%20facebook4j.PostUpdate)">postEventFeed()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#feed">/EVENT_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#postEventStatusMessage(java.lang.String,%20java.lang.String)">postEventStatusMessage()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#noreply">/EVENT_ID/noreply</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getRSVPStatusAsNoreply(java.lang.String)">getRSVPStatusAsNoreply()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#noreply">/EVENT_ID/noreply/USER_ID</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getRSVPStatusAsNoreply(java.lang.String,%20java.lang.String)">getRSVPStatusAsNoreply()</a></td></tr>
@@ -105,7 +105,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#photos">/EVENT_ID/photos</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getEventPhotos(java.lang.String)">getEventPhotos()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#photos">/EVENT_ID/photos</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#postEventPhoto(java.lang.String,%20facebook4j.Media)">postEventPhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/events</a><br />(see: Connections - events)</td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getEvents()">getEvents()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/events</a><br />(see: Connections - events)</td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getEvents()">getEvents()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#events">/USER_ID/events</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#createEvent(facebook4j.EventUpdate)">createEvent()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#events">/PAGE_ID/events</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#createEvent(facebook4j.EventUpdate)">createEvent()</a></td></tr>
 </tbody></table>
 
 
@@ -195,6 +197,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/link/">/LINK_ID/likes</a><br />(see: Connections - likes)</td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinkLikes(java.lang.String)">getLinkLikes()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/link/#likes">/LINK_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#likeLink(java.lang.String)">likeLink()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/link/#likes">/LINK_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#unlikeLink(java.lang.String)">unlikeLink()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/links</a><br />(see: Connections - links)</td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinks()">getLinks()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/links</a><br />(see: Connections - links)</td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinks()">getLinks()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#links">/EVENT_ID/links</a><br /></td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinks()">getLinks()</a></td></tr>
 </tbody></table>
 
 
@@ -225,7 +230,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/note/#likes">/NOTE_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#likeNote(java.lang.String)">likeNote()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/note/#likes">/NOTE_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#unlikeNote(java.lang.String)">unlikeNote()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/notes</a><br />(see: Connections - notes)</td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#getNotes()">getNotes()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/notes</a><br />(see: Connections - notes)</td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#getNotes()">getNotes()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#notes">/USER_ID/notes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#createNote(java.lang.String,%20java.lang.String)">createNote()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#notes">/PAGE_ID/notes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#createNote(java.lang.String,%20java.lang.String)">createNote()</a></td></tr>
 </tbody></table>
 
 
@@ -245,6 +252,40 @@ keywords: サポートAPI,facebook4j
 </tbody></table>
 
 
+## Page {#page}
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">エンドポイント</th><th>Facebook4J のメソッド</th></tr></thead>
+<tbody>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID</a></td><td><a href="">getPage()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID</a></td><td><a href="">updatePageBasicAttributes()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID</a></td><td><a href="">updatePageCoverPhoto()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/feed</a></td><td><a href="">postBackdatingFeed()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/picture</a></td><td><a href="">getPagePictureURL()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/picture</a></td><td><a href="">updatePageProfilePhoto()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/settings</a></td><td><a href="">getPageSettings()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/settings</a></td><td><a href="">updatePageSetting()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/tagged</a></td><td><a href="">getPageTagged()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/promotable_posts</a></td><td><a href="">getPromotablePosts()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/admins</a></td><td><a href="">getPageAdmins()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/milestones</a></td><td><a href="">getMilestones()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/milestones</a></td><td><a href="">createMilestone()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/milestones</a></td><td><a href="">deleteMilestone()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/blocked</a></td><td><a href="">getBlocked()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/blocked</a></td><td><a href="">block()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/blocked</a></td><td><a href="">unblock()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/tabs</a></td><td><a href="">getTabs()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/tabs</a></td><td><a href="">installTab()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/tabs</a></td><td><a href="">getInstalledTabs()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/tabs</a></td><td><a href="">updateTab()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/tabs</a></td><td><a href="">deleteTab()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/global_brand_children</a></td><td><a href="">getGlobalBrandChildren()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/insights</a></td><td><a href="">getPageInsights()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/offers</a></td><td><a href="">getOffers()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/offers</a></td><td><a href="">createOffer()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/offers</a></td><td><a href="">deleteOffer()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/POST_ID</a></td><td><a href="">displayPagePost()</a></td></tr>
+</tbody></table>
+
+
 ## Photo {#photo}
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">エンドポイント</th><th>Facebook4J のメソッド</th></tr></thead>
 <tbody>
@@ -258,6 +299,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/">/PHOTO_ID/picture</a><br />(see: Connections - picture)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhotoURL(java.lang.String)">getPhotoURL()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/">/PHOTO_ID/tags</a><br />(see: Connections - tags)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getTagsOnPhoto(java.lang.String)">getTagsOnPhoto()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/#tags">/PHOTO_ID/tags</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#addTagToPhoto(java.lang.String,%20java.lang.String)">addTagToPhoto()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/#tags">/PHOTO_ID/tags</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#deleteTagOnPhoto(java.lang.String, java.lang.String)">deleteTagOnPhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/photos</a><br />(see: Connections - photos)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhotos()">getPhotos()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#photos">/USER_ID/photos</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#postPhoto(facebook4j.Media)">postPhoto()</a></td></tr>
 </tbody></table>
@@ -282,12 +324,18 @@ keywords: サポートAPI,facebook4j
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/post/#likes">/POST_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#unlikePost(java.lang.String)">unlikePost()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/feed</a><br />(see: Connections - feed)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getFeed()">getFeed()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#feed">/USER_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#postFeed(facebook4j.PostUpdate)">postFeed()</a></td></tr>
-<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/links</a><br />(see: Connections - links)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getLinks()">getLinks()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/feed</a><br />(see: Connections - feed)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getFeed()">getFeed()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/">/EVENT_ID/feed</a><br />(see: Connections - feed)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getFeed()">getFeed()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#feed">/USER_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#postLink(java.lang.String,%20java.net.URL)">postLink()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#feed">/PAGE_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#postFeed(facebook4j.PostUpdate)">postFeed()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#posts">/EVENT_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#postFeed(facebook4j.PostUpdate)">postFeed()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/statuses</a><br />(see: Connections - statuses)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getStatuses()">getStatuses()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/statuses</a><br />(see: Connections - statuses)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getStatuses()">getStatuses()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#feed">/USER_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#postStatusMessage(java.lang.String)">postStatusMessage()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#statuses">/PAGE_ID/feed</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#postStatusMessage(java.lang.String)">postStatusMessage()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/home</a><br />(see: Connections - home)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getHome()">getHome()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/posts</a><br />(see: Connections - posts)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPosts()">getPosts()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/posts</a><br />(see: Connections - posts)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPosts()">getPosts()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/tagged</a><br />(see: Connections - tagged)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getTagged()">getTagged()</a></td></tr>
 </tbody></table>
 
@@ -301,7 +349,8 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/question/#options">/QUESTION_ID/options</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#addQuestionOption(java.lang.String,%20java.lang.String)">addQuestionOption()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/question_option/">/QUESTION_ID/options?fields=votes</a><br />(see: Connections - votes)</td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#getQuestionOptionVotes(java.lang.String)">getQuestionOptionVotes()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#questions">/USER_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#getQuestions()">getQuestions()</a></td></tr>
-<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#questions">/USER_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#createQuestion(java.lang.String)">createQuestion()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#questions">/PAGE_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#getQuestions()">getQuestions()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#questions">/PAGE_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#createQuestion(java.lang.String)">createQuestion()</a></td></tr>
 </tbody></table>
 
 
@@ -319,6 +368,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/me</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getMe()">getMe()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getUser(java.lang.String)">getUser()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/picture</a><br />(see: Connections - picture)</td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getPictureURL()">getPictureURL()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/using-pictures/#ssl">/USER_ID/picture</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getSSLPictureURL()">getSSLPictureURL()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/selecting-results/">?ids=name1,name2...</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getUsers(java.lang.String...)">getUsers()</a></td></tr>
 </tbody></table>
 
@@ -334,7 +384,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/video/#comments">/VIDEO_ID/comments</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#commentVideo(java.lang.String,%20java.lang.String)">commentVideo()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/video/">/VIDEO_ID/picture</a><br />(see: Connections - picture)</td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideoCover(java.lang.String)">getVideoCover()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/videos</a><br />(see: Connections - videos)</td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideos()">getVideos()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/videos</a><br />(see: Connections - videos)</td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideos()">getVideos()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#videos">/USER_ID/videos</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#postVideo(facebook4j.Media)">postVideo()</a></td></tr>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#videos">/PAGE_ID/videos</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#postVideo(facebook4j.Media)">postVideo()</a></td></tr>
 </tbody></table>
 
 
@@ -360,6 +412,7 @@ keywords: サポートAPI,facebook4j
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=post</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchPosts(java.lang.String)">searchPosts()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=user</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchUsers(java.lang.String)">searchUsers()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=page</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchPages(java.lang.String)">searchPages()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=event</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchEvents(java.lang.String)">searchEvents()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=group</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchGroups(java.lang.String)">searchGroups()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=place</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchPlaces(java.lang.String)">searchPlaces()</a></td></tr>

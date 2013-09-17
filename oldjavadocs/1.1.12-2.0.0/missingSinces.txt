@@ -1,0 +1,111 @@
+OK: facebook4j.Admin Interface
+MISSING @SINCE TAG: facebook4j.AlbumUpdate Class
+OK: facebook4j.BackdatedTimeGranularity Class
+OK: facebook4j.BackdatingPostUpdate Class
+NO DOC BLOCK: facebook4j.CheckinUpdate Class
+OK: facebook4j.FeedTargetingParameter Class
+OK: facebook4j.FeedTargetingParameter.Gender Class
+OK: facebook4j.Insight.Value.Entry Interface
+OK: facebook4j.Milestone Interface
+OK: facebook4j.MilestoneUpdate Class
+OK: facebook4j.Notification.TargetObject Interface
+OK: facebook4j.Offer Interface
+OK: facebook4j.OfferUpdate Class
+OK: facebook4j.Page Interface
+OK: facebook4j.PageCoverUpdate Class
+OK: facebook4j.api.PageMethods Interface
+OK: facebook4j.PagePhotoUpdate Class
+OK: facebook4j.PageSetting Interface
+OK: facebook4j.PageSettingUpdate Class
+OK: facebook4j.PageUpdate Class
+OK: facebook4j.Paging.Cursors Interface
+OK: facebook4j.PhotoUpdate Class
+OK: facebook4j.PostUpdate.PostAction Class
+OK: facebook4j.PrivacyParameter Class
+OK: facebook4j.QuestionUpdate Class
+OK: facebook4j.Tab Interface
+OK: facebook4j.TabUpdate Class
+OK: facebook4j.Tagged Interface
+OK: facebook4j.Targeting Interface
+OK: facebook4j.TargetingParameter Class
+OK: facebook4j.Venue Interface
+OK: facebook4j.Video.Format Interface
+OK: facebook4j.VideoUpdate Class
+NO DOC BLOCK: facebook4j.EventUpdate Constructor (void)
+NO DOC BLOCK: facebook4j.TagUpdate Constructor (java.lang.String, java.lang.String, java.lang.Double, java.lang.Double)
+NO DOC BLOCK: facebook4j.Reading Method after(java.lang.String)
+NO DOC BLOCK: facebook4j.Reading Method before(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.CheckinMethods Method checkin(facebook4j.CheckinUpdate)
+MISSING @SINCE TAG: facebook4j.api.CheckinMethods Method checkin(java.lang.String, facebook4j.CheckinUpdate)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createAdmin(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.AlbumMethods Method createAlbum(facebook4j.AlbumUpdate)
+MISSING @SINCE TAG: facebook4j.api.AlbumMethods Method createAlbum(java.lang.String, facebook4j.AlbumUpdate)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createCategory(java.lang.String)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createMilestone(java.lang.String)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createOffer(java.lang.String)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createPage(java.lang.String)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createPageSetting(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.QuestionMethods Method createQuestion(facebook4j.QuestionUpdate)
+MISSING @SINCE TAG: facebook4j.api.QuestionMethods Method createQuestion(java.lang.String, facebook4j.QuestionUpdate)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createTab(java.lang.String)
+MISSING @SINCE TAG: facebook4j.json.DataObjectFactory Method createTagged(java.lang.String)
+OK: facebook4j.api.PhotoMethods Method deleteTagOnPhoto(java.lang.String, java.lang.String)
+NO DOC BLOCK: facebook4j.Album Method getComments()
+NO DOC BLOCK: facebook4j.Checkin Method getCoordinates()
+NO DOC BLOCK: facebook4j.GroupDoc Method getCreatedTime()
+NO DOC BLOCK: facebook4j.Paging Method getCursors()
+NO DOC BLOCK: facebook4j.Video Method getFormat()
+NO DOC BLOCK: facebook4j.Link Method getLikes()
+NO DOC BLOCK: facebook4j.Video Method getLink()
+MISSING @SINCE TAG: facebook4j.api.LinkMethods Method getLinks()
+MISSING @SINCE TAG: facebook4j.api.LinkMethods Method getLinks(facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.LinkMethods Method getLinks(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.LinkMethods Method getLinks(java.lang.String, facebook4j.Reading)
+NO DOC BLOCK: facebook4j.GroupDoc Method getMessage()
+NO DOC BLOCK: facebook4j.EventUpdate Method getNoFeedStory()
+NO DOC BLOCK: facebook4j.Account Method getPerms()
+NO DOC BLOCK: facebook4j.Album Method getPlace()
+NO DOC BLOCK: facebook4j.Link Method getPrivacy()
+NO DOC BLOCK: facebook4j.PostUpdate Method getPublished()
+NO DOC BLOCK: facebook4j.Post Method getScheduledPublishTime()
+NO DOC BLOCK: facebook4j.PostUpdate Method getScheduledPublishTime()
+OK: facebook4j.api.UserMethods Method getSSLPictureURL()
+OK: facebook4j.api.UserMethods Method getSSLPictureURL(facebook4j.PictureSize)
+OK: facebook4j.api.UserMethods Method getSSLPictureURL(java.lang.String)
+OK: facebook4j.api.UserMethods Method getSSLPictureURL(java.lang.String, facebook4j.PictureSize)
+NO DOC BLOCK: facebook4j.Post Method getTargeting()
+NO DOC BLOCK: facebook4j.PostUpdate Method getTargeting()
+NO DOC BLOCK: facebook4j.Notification Method getTargetObject()
+NO DOC BLOCK: facebook4j.Event Method getTicketURI()
+NO DOC BLOCK: facebook4j.EventUpdate Method getTicketURI()
+NO DOC BLOCK: facebook4j.Event Method getTimezone()
+NO DOC BLOCK: facebook4j.Message Method getUnread()
+NO DOC BLOCK: facebook4j.Message Method getUnseen()
+NO DOC BLOCK: facebook4j.Group Method getVenue()
+NO DOC BLOCK: facebook4j.Event Method isDateOnly()
+NO DOC BLOCK: facebook4j.Post Method isPublished()
+NO DOC BLOCK: facebook4j.Comment Method isUserLikes()
+NO DOC BLOCK: facebook4j.EventUpdate Method name(java.lang.String)
+NO DOC BLOCK: facebook4j.EventUpdate Method noFeedStory(java.lang.Boolean)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method postPhoto(facebook4j.PhotoUpdate)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method postPhoto(java.lang.String, facebook4j.PhotoUpdate)
+MISSING @SINCE TAG: facebook4j.api.VideoMethods Method postVideo(facebook4j.VideoUpdate)
+MISSING @SINCE TAG: facebook4j.api.VideoMethods Method postVideo(java.lang.String, facebook4j.VideoUpdate)
+NO DOC BLOCK: facebook4j.PostUpdate Method published(java.lang.Boolean)
+NO DOC BLOCK: facebook4j.PostUpdate Method scheduledPublishTime(java.lang.Integer)
+NO DOC BLOCK: facebook4j.PostUpdate Method scheduledPublishTime(java.util.Date)
+OK: facebook4j.api.SearchMethods Method searchPages(java.lang.String)
+OK: facebook4j.api.SearchMethods Method searchPages(java.lang.String, facebook4j.Reading)
+NO DOC BLOCK: facebook4j.EventUpdate Method setName(java.lang.String)
+NO DOC BLOCK: facebook4j.EventUpdate Method setNoFeedStory(java.lang.Boolean)
+NO DOC BLOCK: facebook4j.PostUpdate Method setPublished(java.lang.Boolean)
+NO DOC BLOCK: facebook4j.PostUpdate Method setScheduledPublishTime(java.lang.Integer)
+NO DOC BLOCK: facebook4j.PostUpdate Method setScheduledPublishTime(java.util.Date)
+NO DOC BLOCK: facebook4j.EventUpdate Method setStartTime(java.util.Calendar)
+NO DOC BLOCK: facebook4j.PostUpdate Method setTargeting(facebook4j.TargetingParameter)
+NO DOC BLOCK: facebook4j.EventUpdate Method setTicketURI(java.lang.String)
+NO DOC BLOCK: facebook4j.EventUpdate Method setTicketURI(java.net.URI)
+NO DOC BLOCK: facebook4j.EventUpdate Method startTime(java.util.Calendar)
+NO DOC BLOCK: facebook4j.PostUpdate Method targeting(facebook4j.TargetingParameter)
+NO DOC BLOCK: facebook4j.EventUpdate Method ticketURI(java.lang.String)
+NO DOC BLOCK: facebook4j.EventUpdate Method ticketURI(java.net.URI)

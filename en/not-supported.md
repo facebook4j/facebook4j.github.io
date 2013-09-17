@@ -7,9 +7,6 @@ keywords: facebook4j
 # NOT Supported yet
 Facebook4J has not supported the following yet.
 
-## Page APIs
-[Page - Facebook Developers](https://developers.facebook.com/docs/reference/api/page/)
-
 ## Application APIs
 [Application - Facebook Developers](https://developers.facebook.com/docs/reference/api/application/)
 
