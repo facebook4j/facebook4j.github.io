@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Configuration | Facebook4J - A Java library for the Facebook Graph API
+title: Configuration | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Configuration for Facebook4J
 keywords: configuration,facebook4j
 ---

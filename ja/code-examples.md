@@ -1,6 +1,6 @@
 ---
 layout: default
-title: コードサンプル | Facebook4J - A Java library for the Facebook Graph API
+title: コードサンプル | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Facebook4Jのコードサンプル
 keywords: コードサンプル,facebook4j,使い方
 ---

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Facebook4J - A Java library for the Facebook Graph API
-description: Facebook4J is a Java library for the Facebook Graph API. This library provides the ease of use like Twitter4J. Facebook4J is an unofficial library.
+title: Facebook4J - A most easily usable Facebook API wrapper in Java
+description: Facebook4J is an open-sourced, mavenized Java library. With Facebook4J, you can easily integrate your application with the Facebook API. Facebook4J is an unofficial library.
 keywords: facebook,java,facebook4j
 ---
 # Introduction {#introduction}

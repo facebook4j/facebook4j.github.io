@@ -1,6 +1,6 @@
 ---
 layout: default
-title: NOT Supported yet | Facebook4J - A Java library for the Facebook Graph API
+title: NOT Supported yet | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: NOT Supported feature info
 keywords: facebook4j
 ---

@@ -1,6 +1,6 @@
 ---
 layout: default
-title: 設定 | Facebook4J - A Java library for the Facebook Graph API
+title: 設定 | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Facebook4Jの設定
 keywords: 設定,facebook4j
 ---

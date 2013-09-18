@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Code Examples | Facebook4J - A Java library for the Facebook Graph API
+title: Code Examples | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Code Examples of Facebook4J
 keywords: examples,facebook4j
 ---

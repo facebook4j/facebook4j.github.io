@@ -1,6 +1,6 @@
 ---
 layout: default
-title: バージョン | Facebook4J - A Java library for the Facebook Graph API
+title: バージョン | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Facebook4Jのバージョン
 keywords: バージョン,facebook4j
 ---

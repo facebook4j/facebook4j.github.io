@@ -1,6 +1,6 @@
 ---
 layout: default
-title: API Support matrix | Facebook4J - A Java library for the Facebook Graph API
+title: API Support matrix | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Facebook4J API Support matrix
 keywords: API Support,facebook4j
 ---

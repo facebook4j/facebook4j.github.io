@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Development | Facebook4J - A Java library for the Facebook Graph API
+title: Development | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Facebook4J - Development
 keywords: development,facebook4j
 ---
