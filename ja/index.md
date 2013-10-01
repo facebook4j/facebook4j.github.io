@@ -37,6 +37,13 @@ Java が分かっていれば [JavaDoc](/javadoc/index.html "JavaDoc") を見る
 [facebook4j.Facebook](/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") が最初に見るべきインターフェイスです。  
 コード例は [コードサンプル | Facebook4J - A Java library for the Facebook Graph API](/ja/code-examples.html) をご覧ください。
 
+# ソースコード {#source_code}
+
+プロジェクトのリポジトリは以下の URL です。
+
+    https://github.com/roundrop/facebook4j
+
+
 # ライセンス {#license}
 Facebook4J は Apache License 2.0 に基づいてリリースされています。
 
