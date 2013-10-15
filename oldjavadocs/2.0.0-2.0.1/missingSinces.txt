@@ -1,0 +1,5 @@
+NO DOC BLOCK: facebook4j.Photo Method getAlbum()
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getUploadedPhotos()
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getUploadedPhotos(facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getUploadedPhotos(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getUploadedPhotos(java.lang.String, facebook4j.Reading)

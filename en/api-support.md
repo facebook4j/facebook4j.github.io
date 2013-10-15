@@ -304,6 +304,7 @@ keywords: API Support,facebook4j
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/#tags">/PHOTO_ID/tags</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#deleteTagOnPhoto(java.lang.String, java.lang.String)">deleteTagOnPhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/photos</a><br />(see: Connections - photos)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhotos()">getPhotos()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#photos">/USER_ID/photos</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#postPhoto(facebook4j.Media)">postPhoto()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/photos/uploaded</a><br />(see: Connections - photos/uploaded)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getUploadedPhotos()">getUploadedPhotos()</a></td></tr>
 </tbody></table>
 
 

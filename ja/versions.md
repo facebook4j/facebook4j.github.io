@@ -6,6 +6,9 @@ keywords: バージョン,facebook4j
 ---
 # バージョン
 
+## バージョン 2.0.x {#v20x}
+[JavaDoc diff 2.0.0 - 2.0.1](/oldjavadocs/2.0.0-2.0.1/changes.html)
+
 ## バージョン 2.0 {#v20}
 2013/09/17 リリース: Facebook ページ系 API をサポート  
 [バージョン 1.1.12 からの JavaDoc diff](/oldjavadocs/1.1.12-2.0.0/changes.html)
