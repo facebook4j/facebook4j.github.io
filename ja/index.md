@@ -39,10 +39,10 @@ Java が分かっていれば [JavaDoc](/javadoc/index.html "JavaDoc") を見る
 
 # ソースコード {#source_code}
 
-プロジェクトのリポジトリは以下の URL です。
+プロジェクトのリポジトリは `https://github.com/roundrop/facebook4j` です。
 
-    https://github.com/roundrop/facebook4j
-
+<div class="github-card" data-user="roundrop" data-repo="facebook4j" data-width="400" data-height="153"></div>
+<script src="http://lab.lepture.com/github-cards/widget.js"></script>
 
 # ライセンス {#license}
 Facebook4J は Apache License 2.0 に基づいてリリースされています。
@@ -66,3 +66,9 @@ Facebook4J は HTTP通信処理をはじめとするかなりの内部ロジッ�
 # Contributors {#contributors}
 <img hspace="8" border="1" align="absmiddle" src="http://www.gravatar.com/avatar/3e40bc0f7067d4b83e2b1d6316338bfb?s=80" alt="Ryuji Yamashita" />
 **Ryuji Yamashita** &lt;roundrop at gmail.com&gt; @roundrop
+
+# 寄付 {#donation}
+Facebook4J はどなたでも商用、非商用にかかわらず無償でご利用いただけます。  
+もし Facebook4J があなたの生活を豊かにしてくれると感じたならば、寄付もご検討ください。  
+  
+<a href='http://www.pledgie.com/campaigns/22235'><img alt='Click here to lend your support to: Facebook4J and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/22235.png?skin_name=chrome' border='0' /></a>

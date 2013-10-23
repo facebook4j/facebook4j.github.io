@@ -33,11 +33,13 @@ pull request を [roundrop](http://github.com/roundrop) に送ります。
 
 # 課題管理 {#issue-management}
 Facebook4J はアトラシアン社の提供する課題管理ツール、[JIRA](https://roundrop.atlassian.net/browse/FFJ) を使ってバグ管理を行っています。  
-[アトラシアン オンデマンド](https://www.atlassian.com/ja/software/ondemand/overview) 上で運用しています。
+[![JIRA](/images/jira.png)](https://roundrop.atlassian.net/browse/FFJ)  
+[アトラシアン オンデマンド](https://www.atlassian.com/ja/software/ondemand/overview) 上で運用しています。  
+Atlassian は Facebook4J.org に Atlassian OnDemand の Open Source Project License を提供しています。
 
 # 継続ビルド {#ci}
 Facebook4Jは継続ビルドに [Jenkins](https://roundrop.ci.cloudbees.com/job/F4J/) を使っています。  
-![Jenkins](https://raw.github.com/jenkinsci/jenkins/master/src/site/resources/jenkins_logo.png)  
+[![Jenkins](/images/jenkins_logo.png)](https://roundrop.ci.cloudbees.com/job/F4J/)  
 [CloudBees](http://www.cloudbees.com) 上で運用しています。
 
 # IDE {#ide}

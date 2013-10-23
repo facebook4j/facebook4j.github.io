@@ -38,10 +38,10 @@ Code examples: [Code Examples | Facebook4J - A Java library for the Facebook Gra
 
 # Source Code {#source_code}
 
-The project repository URL is follows:
+The project repository URL is `https://github.com/roundrop/facebook4j`
 
-    https://github.com/roundrop/facebook4j
-
+<div class="github-card" data-user="roundrop" data-repo="facebook4j" data-width="400" data-height="153"></div>
+<script src="http://lab.lepture.com/github-cards/widget.js"></script>
 
 # License {#license}
 Facebook4J is released under Apache License 2.0.
@@ -65,3 +65,10 @@ Facebook4J includes software from Twitter4J to handle HTTP request/response and 
 # Contributors {#contributors}
 <img hspace="8" border="1" align="absmiddle" src="http://www.gravatar.com/avatar/3e40bc0f7067d4b83e2b1d6316338bfb?s=80" alt="Ryuji Yamashita" />
 **Ryuji Yamashita** &lt;roundrop at gmail.com&gt; @roundrop
+
+# Donation {#donation}
+Facebook4J is an opensourced software and free of charge.  
+You can use Facebook4J freely for any commercial and non-commercial projects.  
+If you feel Facebook4J makes your life easier, please do consider making a donation!  
+  
+<a href='http://www.pledgie.com/campaigns/22235'><img alt='Click here to lend your support to: Facebook4J and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/22235.png?skin_name=chrome' border='0' /></a>

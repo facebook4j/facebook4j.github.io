@@ -33,11 +33,13 @@ Use of APIs introduced at Java 6+ is not allowed since Facebook4J is desigined t
 
 # Issue management {#issue-management}
 Atlassian supports our efforts by contributing their bug tracking and issue tracking application, [JIRA](https://roundrop.atlassian.net/browse/FFJ) , to our project.  
-Running on [Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/overview) .
+[![JIRA](/images/jira.png)](https://roundrop.atlassian.net/browse/FFJ)  
+Running on [Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/overview) .  
+Atlassian is offering an Open Source Project License of Atlassian OnDemand to Facebook4J.org.
 
 # Continuous Integration {#ci}
 Facebook4J is built continuously by [Jenkins](https://roundrop.ci.cloudbees.com/job/F4J/) .  
-![Jenkins](https://raw.github.com/jenkinsci/jenkins/master/src/site/resources/jenkins_logo.png)  
+[![Jenkins](/images/jenkins_logo.png)](https://roundrop.ci.cloudbees.com/job/F4J/)  
 Running on [CloudBees](http://www.cloudbees.com) .
 
 # IDE {#ide}
