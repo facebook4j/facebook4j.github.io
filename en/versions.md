@@ -7,6 +7,7 @@ keywords: versions,facebook4j
 # Versions
 
 ## Version 2.0.x {#v20x}
+[JavaDoc diff 2.0.1 - 2.0.2](/oldjavadocs/2.0.1-2.0.2/changes.html)  
 [JavaDoc diff 2.0.0 - 2.0.1](/oldjavadocs/2.0.0-2.0.1/changes.html)
 
 ## Version 2.0 {#v20}

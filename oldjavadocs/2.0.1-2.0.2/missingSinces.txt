@@ -1,0 +1,2 @@
+NO DOC BLOCK: facebook4j.FacebookException Method getErrorSubcode()
+NO DOC BLOCK: facebook4j.Place.Location Method getText()

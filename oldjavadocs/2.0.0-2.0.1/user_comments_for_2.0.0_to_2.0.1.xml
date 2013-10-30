@@ -69,35 +69,5 @@
     InsertCommentsHere
   </text>
 </comment>
-<comment>
-  <identifier id="facebook4j.internal.http"/>
-  <text>
-    InsertCommentsHere
-  </text>
-</comment>
-<comment>
-  <identifier id="facebook4j.internal.json"/>
-  <text>
-    InsertCommentsHere
-  </text>
-</comment>
-<comment>
-  <identifier id="facebook4j.internal.logging"/>
-  <text>
-    InsertCommentsHere
-  </text>
-</comment>
-<comment>
-  <identifier id="facebook4j.internal.org.json"/>
-  <text>
-    InsertCommentsHere
-  </text>
-</comment>
-<comment>
-  <identifier id="facebook4j.internal.util"/>
-  <text>
-    InsertCommentsHere
-  </text>
-</comment>
 
 </comments>
