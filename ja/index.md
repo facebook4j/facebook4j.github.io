@@ -30,6 +30,8 @@ pom.xml に以下のように記述してください。
 
 * 最新安定バージョン  
 [facebook4j-core-2.0.2.jar](/download/facebook4j-core-2.0.2.jar)
+* 最新スナップショットビルド  
+[facebook4j-2.0.3.zip](/download/facebook4j-2.0.3.zip)
 
 # 使い方 {#how_to_use}
 facebook4j-core-2.0.2.jar をクラスパスに通して、好きなメソッドを呼び出してください。  

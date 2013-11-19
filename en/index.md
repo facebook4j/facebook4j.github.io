@@ -29,6 +29,8 @@ Java 5 or later
 
 * Latest stable version  
 [facebook4j-core-2.0.2.jar](/download/facebook4j-core-2.0.2.jar)
+* Latest snapshot build  
+[facebook4j-2.0.3.zip](/download/facebook4j-2.0.3.zip)
 
 # How To Use {#how_to_use}
 Just add facebook4j-core-2.0.2.jar to your application classpath.  
