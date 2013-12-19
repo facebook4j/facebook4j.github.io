@@ -1,0 +1,27 @@
+MISSING @SINCE TAG: facebook4j.auth.Security Interface
+MISSING @SINCE TAG: facebook4j.auth.OAuthAuthorization Method generateAppSecretProof()
+NO DOC BLOCK: facebook4j.auth.AuthorizationConfiguration Method getAppSecretProofCacheSize()
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method getAppSecretProofCacheSize()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthAccessToken(java.lang.String, java.lang.String)
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method getOAuthAccessToken(java.lang.String, java.lang.String)
+NO DOC BLOCK: facebook4j.auth.AuthorizationConfiguration Method getOAuthCallbackURL()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthCallbackURL()
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method getOAuthCallbackURL()
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method getOAuthCallbackURL()
+NO DOC BLOCK: facebook4j.auth.AuthorizationConfiguration Method isAppSecretProofEnabled()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method isAppSecretProofEnabled()
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method isAppSecretProofEnabled()
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method setAppSecretProofCacheSize(int)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBuilder Method setAppSecretProofCacheSize(int)
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method setAppSecretProofEnabled(boolean)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method setAppSecretProofEnabled(boolean)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBuilder Method setAppSecretProofEnabled(boolean)
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method setOAuthAccessToken(facebook4j.auth.AccessToken, java.lang.String)
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method setOAuthCallbackURL(java.lang.String)
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method setOAuthCallbackURL(java.lang.String)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method setOAuthCallbackURL(java.lang.String)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBuilder Method setOAuthCallbackURL(java.lang.String)
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Field HMAC_SHA_256
+NO DOC BLOCK: facebook4j.conf.PropertyConfiguration Field OAUTH_CALLBACK_URL
+NO DOC BLOCK: facebook4j.conf.PropertyConfiguration Field SECURITY_APP_SECRET_PROOF_CACHE_SIZE
+NO DOC BLOCK: facebook4j.conf.PropertyConfiguration Field SECURITY_APP_SECRET_PROOF_ENABLED
