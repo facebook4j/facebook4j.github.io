@@ -75,6 +75,16 @@ Facebook4J はいくつもの設定可能なプロパティが存在します。
 パーミッション名をカンマ区切りで指定<br />
 パーミッション名は Facebook の Webサイトで確認してください。<br />
 <a href="https://developers.facebook.com/docs/reference/login/#permissions">https://developers.facebook.com/docs/reference/login/#permissions</a></td><td>null</td></tr>
+<tr><td>oauth.callbackURL</td><td>デフォルトの OAuth コールバック URL</td><td>null</td></tr>
+</tbody>
+</table>
+
+## Security
+<table class="bordered-table zebra-striped" style="width: auto;">
+<thead><tr><th style="width: 150px;">Property name</th><th>Description</th><th style="width: 70px;">Default<br />value</th></tr></thead>
+<tbody>
+<tr><td>security.appSecretProofEnabled</td><td>API コール毎に自動的に 'appsecret_proof' パラメータを付加するかどうかのフラグ。</td><td>false</td></tr>
+<tr><td>security.appSecretProofCacheSize</td><td>'appsecret_proof' のキャッシュサイズ。</td><td>10</td></tr>
 </tbody>
 </table>
 

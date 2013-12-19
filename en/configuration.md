@@ -75,6 +75,16 @@ Supported implimentations:<br />
 Comma separeted permission names<br />
 See <a href="https://developers.facebook.com/docs/reference/login/#permissions">https://developers.facebook.com/docs/reference/login/#permissions</a>
 for the detail.</td><td>null</td></tr>
+<tr><td>oauth.callbackURL</td><td>Default OAuth callback URL</td><td>null</td></tr>
+</tbody>
+</table>
+
+## Security
+<table class="bordered-table zebra-striped" style="width: auto;">
+<thead><tr><th style="width: 150px;">Property name</th><th>Description</th><th style="width: 70px;">Default<br />value</th></tr></thead>
+<tbody>
+<tr><td>security.appSecretProofEnabled</td><td>If set to true, 'appsecret_proof' parameter will be added to every API call automatically.</td><td>false</td></tr>
+<tr><td>security.appSecretProofCacheSize</td><td>Cache size for computed appsecret_proof.</td><td>10</td></tr>
 </tbody>
 </table>
 
