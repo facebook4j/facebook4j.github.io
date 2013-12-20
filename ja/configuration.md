@@ -79,7 +79,7 @@ Facebook4J はいくつもの設定可能なプロパティが存在します。
 </tbody>
 </table>
 
-## Security
+## セキュリティ
 <table class="bordered-table zebra-striped" style="width: auto;">
 <thead><tr><th style="width: 150px;">Property name</th><th>Description</th><th style="width: 70px;">Default<br />value</th></tr></thead>
 <tbody>
