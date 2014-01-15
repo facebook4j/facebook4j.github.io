@@ -24,8 +24,23 @@ facebook4j.properties の設定方法については [設定 | Facebook4J - A Ja
 - - -
 
 ## OAuth 認可 {#oauth}
+
+### ユーザーアクセストークンの取得
+
 Facebook のアカウントで Web アプリケーションの認証を行うことができます。  
 実装例が [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) にあります。
+
+### App アクセストークンの取得
+Facebook.getOAuthAppAccessToken() メソッドで App アクセストークンを取得できます。
+
+    facebook.getOAuthAppAccessToken();
+
+### ページアクセストークンの取得
+以下のようにしてページアクセストークンを取得できます。
+
+    ResponseList<Account> accounts = facebook.getAccounts();
+    Account yourPageAccount = accounts.get(0);  // インデックス0がFacebookページのアカウントの場合
+    String pageAccessToken = yourPageAccount.getAccessToken();
 
 - - -
 

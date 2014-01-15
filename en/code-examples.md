@@ -24,8 +24,23 @@ When they are not listed, it is setable later as follows:
 - - -
 
 ## OAuth support {#oauth}
+
+### Getting User Access Token
+
 It is possible to authenticate users using Facebook accounts with your web application.  
 An example implementation is available at [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) .
+
+### Getting App Access Token
+You can get App Access Token via Facebook.getOAuthAppAccessToken() method.
+
+    facebook.getOAuthAppAccessToken();
+
+### Getting Page Access Token
+You can get Page Access Token as below:
+
+    ResponseList<Account> accounts = facebook.getAccounts();
+    Account yourPageAccount = accounts.get(0);  // if index 0 is your page account.
+    String pageAccessToken = yourPageAccount.getAccessToken();
 
 - - -
 
