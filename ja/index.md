@@ -29,10 +29,10 @@ pom.xml に以下のように記述してください。
 ## ダウンロード
 
 * 最新安定バージョン  
-[facebook4j-core-2.0.4.jar](/download/facebook4j-core-2.0.4.jar)
+[facebook4j-core-2.0.5.jar](/download/facebook4j-core-2.0.5.jar)
 
 # 使い方 {#how_to_use}
-facebook4j-core-2.0.4.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
+facebook4j-core-2.0.5.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
 Java が分かっていれば [JavaDoc](/javadoc/index.html "JavaDoc") を見るのが早いです。  
 [facebook4j.Facebook](/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") が最初に見るべきインターフェイスです。  
 コード例は [コードサンプル | Facebook4J - A Java library for the Facebook Graph API](/ja/code-examples.html) をご覧ください。
@@ -64,7 +64,6 @@ Facebook4J は Apache License 2.0 に基づいてリリースされています�
 Facebook4J は HTTP通信処理をはじめとするかなりの内部ロジックについて Twitter4J を内包して使用しています。 Twitter4J のソフトウェアのライセンスについては [http://twitter4j.org/ja/index.html#license](http://twitter4j.org/ja/index.html#license) をご覧ください。
 
 # Contributors {#contributors}
-<img hspace="8" border="1" align="absmiddle" src="http://www.gravatar.com/avatar/3e40bc0f7067d4b83e2b1d6316338bfb?s=80" alt="Ryuji Yamashita" />
 **Ryuji Yamashita** &lt;roundrop at gmail.com&gt; @roundrop
 
 # 寄付 {#donation}

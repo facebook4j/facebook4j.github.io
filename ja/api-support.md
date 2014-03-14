@@ -11,13 +11,18 @@ keywords: サポートAPI,facebook4j
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/accounts</a><br />(see: Connections - accounts)</td><td><a href="/javadoc/facebook4j/api/AccountMethods.html#getAccounts()">getAccounts()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#accounts()">Facebook#accounts()</a> でこれらのメソッドに絞り込むことができます。
 
+----
 
 ## Activity {#activity}
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">エンドポイント</th><th>Facebook4J のメソッド</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/activities</a><br />(see: Connections - activities)</td><td><a href="/javadoc/facebook4j/api/ActivityMethods.html#getActivities()">getActivities()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#activities()">Facebook#activities()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Album {#album}
@@ -36,6 +41,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/albums</a><br />(see: Connections - albums)</td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbums()">getAlbums()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#albums">/USER_ID/albums</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#createAlbum(facebook4j.AlbumCreate)">createAlbum()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#albums()">Facebook#albums()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Checkin {#checkin}
@@ -51,6 +59,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/checkins</a><br />(see: Connections - checkins)</td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#getCheckins()">getCheckins()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#checkins">/USER_ID/checkins</a></td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#checkin(facebook4j.CheckinCreate)">checkin()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#checkins()">Facebook#checkins()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Comment {#comment}
@@ -62,6 +73,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/#likes">/COMMENT_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#likeComment(java.lang.String)">likeComment()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/#likes">/COMMENT_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#unlikeComment(java.lang.String)">unlikeComment()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#comments()">Facebook#comments()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Domain {#domain}
@@ -71,6 +85,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/domain/">?domain=DOMAIN_NAME</a></td><td><a href="/javadoc/facebook4j/api/DomainMethods.html#getDomainByName(java.lang.String)">getDomainByName()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/domain/">?domains=DOMAIN_NAME1,...</a></td><td><a href="/javadoc/facebook4j/api/DomainMethods.html#getDomainsByName(java.lang.String...)">getDomainsByName()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#domains()">Facebook#domains()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Event {#event}
@@ -109,6 +126,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#events">/USER_ID/events</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#createEvent(facebook4j.EventUpdate)">createEvent()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#events">/PAGE_ID/events</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#createEvent(facebook4j.EventUpdate)">createEvent()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#events()">Facebook#events()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Family {#family}
@@ -116,6 +136,9 @@ keywords: サポートAPI,facebook4j
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/family</a><br />(see: Connections - family)</td><td><a href="/javadoc/facebook4j/api/FamilyMethods.html#getFamily()">getFamily()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#family()">Facebook#family()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Favorite {#favorite}
@@ -128,6 +151,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/television</a><br />(see: Connections - television)</td><td><a href="/javadoc/facebook4j/api/FavoriteMethods.html#getTelevision()">getTelevision()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/interests</a><br />(see: Connections - interests)</td><td><a href="/javadoc/facebook4j/api/FavoriteMethods.html#getInterests()">getInterests()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#favorites()">Facebook#favorites()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Friend {#friend}
@@ -137,7 +163,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/FriendList/">/FRIENDLIST_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#deleteFriendlist(java.lang.String)">deleteFriendlist()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/FriendList/">/FRIENDLIST_ID/members</a><br />(see: Connections - members)</td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getFriendlistMembers(java.lang.String)">getFriendlistMembers()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/FriendList/#members">/FRIENDLIST_ID/members</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#addFriendlistMember(java.lang.String,%20java.lang.String)">addFriendlistMember()</a></td></tr>
-<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/FriendList/#members">/FRIENDLIST_ID/members</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#removeFriendlistMember(java.lang.String,%20java.lang.String)">removeFriendlistMember()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/FriendList/#members">/FRIENDLIST_ID/members</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#removeFriendlistMember(java.lang.String,%20java.lang.String)">removeFriendlistMember()</a><br /><a href="/javadoc/facebook4j/api/FriendMethods.html#deleteFriendlistMember(java.lang.String,%20java.lang.String)">deleteFriendlistMember()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/friendlists</a><br />(see: Connections - friendlists)</td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getFriendlists()">getFriendlists()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#friendlists">/USER_ID/friendlists</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#createFriendlist(java.lang.String,%20java.lang.String)">createFriendlist()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#friendrequests">/USER_ID/friendrequests</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getFriendRequests()">getFriendRequests()</a></td></tr>
@@ -145,6 +171,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#friends">/USER_ID/friends/FRIEND_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getBelongsFriend(java.lang.String)">getBelongsFriend()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#mutualfriends">/USER_ID/mutualfriends/FRIEND_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getMutualFriends(java.lang.String)">getMutualFriends()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#friends()">Facebook#friends()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Game {#game}
@@ -157,6 +186,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#scores">/USER_ID/scores</a></td><td><a href="/javadoc/facebook4j/api/GameMethods.html#postScore(int)">postScore()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#scores">/USER_ID/scores</a></td><td><a href="/javadoc/facebook4j/api/GameMethods.html#deleteScore()">deleteScore()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#games()">Facebook#games()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Group {#group}
@@ -172,6 +204,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/group/">/GROUP_ID/docs</a><br />(see: Connections - docs)</td><td><a href="/javadoc/facebook4j/api/GroupMethods.html#getGroupDocs(java.lang.String,%20facebook4j.Reading)">getGroupDocs()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/groups</a><br />(see: Connections - groups)</td><td><a href="/javadoc/facebook4j/api/GroupMethods.html#getGroups()">getGroups()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#groups()">Facebook#groups()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Insight {#insight}
@@ -179,6 +214,9 @@ keywords: サポートAPI,facebook4j
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/insights/">/OBJECT_ID/insights/METRIC</a></td><td><a href="/javadoc/facebook4j/api/InsightMethods.html#getInsights(java.lang.String,%20java.lang.String)">getInsights()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#insights()">Facebook#insights()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Like {#like}
@@ -186,6 +224,9 @@ keywords: サポートAPI,facebook4j
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#likes">/USER_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/LikeMethods.html#getUserLikes()">getUserLikes()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#likes()">Facebook#likes()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Link {#link}
@@ -201,6 +242,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/links</a><br />(see: Connections - links)</td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinks()">getLinks()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#links">/EVENT_ID/links</a><br /></td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinks()">getLinks()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#links()">Facebook#links()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Location {#location}
@@ -208,6 +252,9 @@ keywords: サポートAPI,facebook4j
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/locations</a><br />(see: Connections - locations)</td><td><a href="/javadoc/facebook4j/api/LocationMethods.html#getLocations()">getLocations()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#locations()">Facebook#locations()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Message {#message}
@@ -218,6 +265,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/outbox</a><br />(see: Connections - outbox)</td><td><a href="/javadoc/facebook4j/api/MessageMethods.html#getOutbox()">getOutbox()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/updates</a><br />(see: Connections - updates)</td><td><a href="/javadoc/facebook4j/api/MessageMethods.html#getUpdates()">getUpdates()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#messages()">Facebook#messages()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Note {#note}
@@ -234,6 +284,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#notes">/USER_ID/notes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#createNote(java.lang.String,%20java.lang.String)">createNote()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#notes">/PAGE_ID/notes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#createNote(java.lang.String,%20java.lang.String)">createNote()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#notes()">Facebook#notes()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Notification {#notification}
@@ -242,14 +295,20 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/blog/post/552/?ref=nf">/USER_ID/notifications</a><br />(see: 'Reading and Managing Notifications' section)</td><td><a href="/javadoc/facebook4j/api/NotificationMethods.html#getNotifications()">getNotifications()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/blog/post/552/?ref=nf">/NOTIFICATION_ID</a><br />(see: 'Reading and Managing Notifications' section)</td><td><a href="/javadoc/facebook4j/api/NotificationMethods.html#markNotificationAsRead(java.lang.String)">markNotificationAsRead()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#notifications()">Facebook#notifications()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Permission {#permission}
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">エンドポイント</th><th>Facebook4J のメソッド</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#permissions">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#getPermissions()">getPermissions()</a></td></tr>
-<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#permissions">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#revokePermission(java.lang.String)">revokePermission()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#permissions">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#revokePermission(java.lang.String)">revokePermission()</a><br /><a href="/javadoc/facebook4j/api/PermissionMethods.html#deletePermission(java.lang.String)">deletePermission()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#permissions()">Facebook#permissions()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Page {#page}
@@ -284,6 +343,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/offers</a></td><td><a href="">deleteOffer()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/POST_ID</a></td><td><a href="">displayPagePost()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#pages()">Facebook#pages()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Photo {#photo}
@@ -304,6 +366,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#photos">/USER_ID/photos</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#postPhoto(facebook4j.Media)">postPhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/photos/uploaded</a><br />(see: Connections - photos/uploaded)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getUploadedPhotos()">getUploadedPhotos()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#photos()">Facebook#photos()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Poke {#poke}
@@ -311,6 +376,9 @@ keywords: サポートAPI,facebook4j
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/pokes</a><br />(see: Connections - pokes)</td><td><a href="/javadoc/facebook4j/api/PokeMethods.html#getPokes()">getPokes()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#pokes()">Facebook#pokes()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Post {#post}
@@ -339,6 +407,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/posts</a><br />(see: Connections - posts)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPosts()">getPosts()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/tagged</a><br />(see: Connections - tagged)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getTagged()">getTagged()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#posts()">Facebook#posts()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Question {#question}
@@ -353,6 +424,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#questions">/PAGE_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#getQuestions()">getQuestions()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#questions">/PAGE_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#createQuestion(java.lang.String)">createQuestion()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#questions()">Facebook#questions()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Subscribe {#subscribe}
@@ -361,6 +435,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/subscribedto</a><br />(see: Connections - subscribedto)</td><td><a href="/javadoc/facebook4j/api/SubscribeMethods.html#getSubscribedto()">getSubscribedto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/subscribers</a><br />(see: Connections - subscribers)</td><td><a href="/javadoc/facebook4j/api/SubscribeMethods.html#getSubscribers()">getSubscribers()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#subscribes()">Facebook#subscribes()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## User {#user}
@@ -372,6 +449,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/using-pictures/#ssl">/USER_ID/picture</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getSSLPictureURL()">getSSLPictureURL()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/selecting-results/">?ids=name1,name2...</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getUsers(java.lang.String...)">getUsers()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#users()">Facebook#users()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Video {#video}
@@ -389,6 +469,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#videos">/USER_ID/videos</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#postVideo(facebook4j.Media)">postVideo()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#videos">/PAGE_ID/videos</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#postVideo(facebook4j.Media)">postVideo()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#videos()">Facebook#videos()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## TestUser {#testuser}
@@ -398,6 +481,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/test_users/">/APP_ID/accounts/test-users</a><br />(see: Accessing section)</td><td><a href="/javadoc/facebook4j/api/TestUserMethods.html#getTestUsers(java.lang.String)">getTestUsers()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/test_users/">/TEST_USER_ID</a><br />(see: Deleting section)</td><td><a href="/javadoc/facebook4j/api/TestUserMethods.html#deleteTestUser(java.lang.String)">deleteTestUser()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#testUsers()">Facebook#testUsers()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## FQL {#fql}
@@ -406,6 +492,9 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/technical-guides/fql/">/fql?q=FQL</a></td><td><a href="/javadoc/facebook4j/api/FQLMethods.html#executeFQL(java.lang.String)">executeFQL()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/technical-guides/fql/#multi">/fql?q={FQL_NAME1:FQL1,...}</a></td><td><a href="/javadoc/facebook4j/api/FQLMethods.html#executeMultiFQL(java.util.Map)">executeMultiFQL()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#fql()">Facebook#fql()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 
 
 ## Search {#search}
@@ -423,4 +512,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?type=location&place=xxx</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchLocations(java.lang.String)">searchLocations()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#search(java.lang.String)">search()</a></td></tr>
 </tbody></table>
+\* <a href="/javadoc/facebook4j/Facebook.html#search()">Facebook#search()</a> でこれらのメソッドに絞り込むことができます。
+
+----
 

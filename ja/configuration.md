@@ -44,6 +44,26 @@ Facebook4J はいくつもの設定可能なプロパティが存在します。
 
 - - -
 
+## 環境変数から
+OSの環境変数から設定をすることもできます。環境変数から設定する場合はプロパティ名の先頭に "facebook4j." をつける必要があることに注意してください。
+
+    $ export facebook4j.debug=true
+    $ export facebook4j.oauth.appId=*********************
+    $ export facebook4j.oauth.appSecret=******************************************
+    $ export facebook4j.oauth.accessToken=**************************************************
+    $ export facebook4j.oauth.permissions=email,publish_stream,...
+    $ java -cp facebook4j-core-2.0.5.jar:yourApp.jar yourpackage.Main
+
+On Heroku:
+
+    $ heroku config:add facebook4j.oauth.appId=*********************
+    $ heroku config:add facebook4j.oauth.appSecret=******************************************
+    $ heroku config:add facebook4j.oauth.accessToken=**************************************************
+    $ heroku config:add facebook4j.oauth.permissions=email,publish_stream,...
+    $ git push heroku master
+
+- - -
+
 # プロパティ一覧 {#configuration_properties}
 
 ## 一般
