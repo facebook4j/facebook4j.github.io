@@ -6,6 +6,10 @@ keywords: versions,facebook4j
 ---
 # Versions
 
+## Version 2.1 {#v21}
+Released on 2014/03/31: Batch Requests / Raw API support.  
+[JavaDoc diff from Version 2.0.5](/oldjavadocs/2.0.5-2.1.0/changes.html)
+
 ## Version 2.0.x {#v20x}
 [JavaDoc diff 2.0.4 - 2.0.5](/oldjavadocs/2.0.4-2.0.5/changes.html)  
 [JavaDoc diff 2.0.2 - 2.0.4](/oldjavadocs/2.0.2-2.0.4/changes.html)  

@@ -489,3 +489,9 @@ keywords: API Support,facebook4j
 ----
 
 
+## Batch {#batch}
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<tbody>
+<tr><td>POST</td><td><a href="https://developers.facebook.com/docs/graph-api/making-multiple-requests/">?batch=[{...}]</a></td><td><a href="/javadoc/facebook4j/api/BatchRequestsMethods.html#executeBatch(facebook4j.BatchRequests)">executeBatch()</a></td></tr>
+</tbody></table>
+

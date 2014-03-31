@@ -10,9 +10,6 @@ Facebook4Jは下記をまだサポートしていません。
 ## Application APIs
 [Application - Facebook Developers](https://developers.facebook.com/docs/reference/api/application/)
 
-## Batch Requests
-[Batch Requests - Facebook Developers](https://developers.facebook.com/docs/reference/api/batch/)
-
 ## Ads APIs
 [Ads on the Graph API - Facebook Developers](https://developers.facebook.com/docs/reference/ads-api/)
 

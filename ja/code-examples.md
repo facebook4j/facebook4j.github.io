@@ -170,6 +170,70 @@ Facebook.executeMultiFQL() で 1回のコールで複数FQL を実行できま�
 
 - - -
 
+## バッチリクエスト の実行 {#execute_batch}
+Facebook.executeBatch() でバッチリクエストを実行できます。  
+
+    // "me" と "me/friends?limit=50" をバッチ実行
+    BatchRequests<BatchRequest> batch = new BatchRequests<BatchRequest>();
+    batch.add(new BatchRequest(RequestMethod.GET, "me"));
+    batch.add(new BatchRequest(RequestMethod.GET, "me/friends?limit=50"));
+    List<BatchResponse> results = facebook.executeBatch(batch);
+
+    BatchResponse result1 = results.get(0);
+    BatchResponse result2 = results.get(1);
+
+    // ステータスコードやヘッダの取得
+    int statusCode1 = result1.getStatusCode();
+    String contentType = result1.getResponseHeader("Content-Type");
+
+    // as****() で body を取り出すことができます
+    String jsonString = result1.asString();
+    JSONObject jsonObject = result1.asJSONObject();
+    ResponseList<JSONObject> responseList = result2.asResponseList();
+
+    // 形式が明らかなものに関しては DataObjectFactory#create****() でオブジェクトにマッピングできます
+    User user = DataObjectFactory.createUser(jsonString);
+    Friend friend1 = DataObjectFactory.createFriend(responseList.get(0).toString());
+    Friend friend2 = DataObjectFactory.createFriend(responseList.get(1).toString());
+    :
+
+
+バイナリファイルの指定は以下のようにして行います。
+
+    BatchRequests<BatchRequest> batch = new BatchRequests<BatchRequest>();
+    Media file = new Media(new File("...image.png"));
+    BatchAttachment attachment = new BatchAttachment("file", file);
+    batch.add(new BatchRequest(RequestMethod.POST, "me/photos")
+                  .body("message=My photo")
+                  .attachedFile(attachment));
+
+
+- - -
+
+## エンドポイントを指定して API を実行 {#execute_raw}
+Facebook.call****() で指定したエンドポイントで API を実行できます。
+
+    // GET
+    RawAPIResponse res = facebook.callGetAPI("me");
+    JSONObject jsonObject = actual.asJSONObject();
+    String id = jsonObject.getString("id");
+    
+    // POST
+    Map<String, String> params = new HashMap<String, String>();
+    params.put("message", "hello");
+    RawAPIResponse res = facebook.callPostAPI("me/feed", params);
+
+    // DELETE
+    RawAPIResponse res = facebook.callDeleteAPI("123456/likes");
+    if (res.isBoolean()) {
+      System.out.println(res.asBoolean());
+    }
+
+Facebook.call****() では、Facebook4J では未対応の API を実行することもできます。
+
+
+- - -
+
 ## 取得オプション {#reading}
 引数に Reading クラスのあるメソッドについては、様々な読み込みオプションを指定できます。
 

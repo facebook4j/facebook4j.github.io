@@ -6,6 +6,10 @@ keywords: バージョン,facebook4j
 ---
 # バージョン
 
+## バージョン 2.1 {#v21}
+Released on 2014/03/31: バッチリクエスト / 生 API support.  
+[バージョン 2.0.5 からの JavaDoc diff](/oldjavadocs/2.0.5-2.1.0/changes.html)
+
 ## バージョン 2.0.x {#v20x}
 [JavaDoc diff 2.0.4 - 2.0.5](/oldjavadocs/2.0.4-2.0.5/changes.html)  
 [JavaDoc diff 2.0.2 - 2.0.4](/oldjavadocs/2.0.2-2.0.4/changes.html)  

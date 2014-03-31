@@ -1,0 +1,10 @@
+OK: facebook4j.BatchAttachment Class
+OK: facebook4j.BatchRequest Class
+OK: facebook4j.BatchRequests Class
+OK: facebook4j.api.BatchRequestsMethods Interface
+OK: facebook4j.BatchResponse Interface
+OK: facebook4j.BatchResponseImpl Class
+OK: facebook4j.api.RawAPIMethods Interface
+OK: facebook4j.RawAPIResponse Interface
+OK: facebook4j.Facebook Method batch()
+OK: facebook4j.Facebook Method rawAPI()
