@@ -21,3 +21,6 @@ Facebook4J has not supported the following yet.
 
 ## Open Graph API
 [Open Graph - Facebook Developers](https://developers.facebook.com/docs/opengraph/)
+
+## Facebook API 2.0
+[Facebook Platform Changelog](https://developers.facebook.com/docs/apps/changelog#v2_0_graph_api)

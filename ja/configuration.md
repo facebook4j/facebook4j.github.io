@@ -4,6 +4,10 @@ title: 設定 | Facebook4J - A most easily usable Facebook API wrapper in Java
 description: Facebook4Jの設定
 keywords: 設定,facebook4j
 ---
+<div class="hero-unit">
+  Facebook の API バージョンの指定方法は <a href="/ja/faq.html#apiversion">こちら</a>
+</div>
+
 # 一般設定 {#generic_properties}
 Facebook4J はいくつもの設定可能なプロパティが存在します。プロパティは facebook4j.properties ファイルから、ConfigurationBuilderクラスから、またはシステムプロパティから設定できます。
 

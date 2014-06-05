@@ -4,6 +4,10 @@ title: Configuration | Facebook4J - A most easily usable Facebook API wrapper in
 description: Configuration for Facebook4J
 keywords: configuration,facebook4j
 ---
+<div class="hero-unit">
+  How to specify the API version of Facebook, please see <a href="/en/faq.html#apiversion">here</a>.
+</div>
+
 # Generic properties {#generic_properties}
 There are a number of properties available for configuring Facebook4J. You can specify properties via facebook4j.properties file, ConfigurationBuilder class or System Property as follows :
 
