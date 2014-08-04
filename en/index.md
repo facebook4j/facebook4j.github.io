@@ -38,7 +38,7 @@ Code examples: [Code Examples | Facebook4J - A Java library for the Facebook Gra
 
 # Source Code {#source_code}
 
-The project repository URL is `https://github.com/roundrop/facebook4j`
+The project repository URL is <a href="https://github.com/roundrop/facebook4j" target="_blank"> `https://github.com/roundrop/facebook4j` </a>
 
 <div class="github-card" data-user="roundrop" data-repo="facebook4j" data-width="400" data-height="153"></div>
 <script src="http://lab.lepture.com/github-cards/widget.js"></script>
