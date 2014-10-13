@@ -1,0 +1,10 @@
+NO DOC BLOCK: facebook4j.InboxResponseList.InboxSummary Interface
+OK: facebook4j.Summary Interface
+NO DOC BLOCK: facebook4j.Summary.SummaryOrder Class
+NO DOC BLOCK: facebook4j.Page Method getAbout()
+NO DOC BLOCK: facebook4j.Place Method getCategories()
+NO DOC BLOCK: facebook4j.Post Method getFullPicture()
+NO DOC BLOCK: facebook4j.InboxResponseList Method getInboxSummary()
+NO DOC BLOCK: facebook4j.ResponseList Method getSummary()
+NO DOC BLOCK: facebook4j.Page Method getUsername()
+NO DOC BLOCK: facebook4j.Reading Method summary()

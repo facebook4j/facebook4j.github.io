@@ -6,6 +6,10 @@ keywords: versions,facebook4j
 ---
 # Versions
 
+## Version 2.2 {#v22}
+Released on 2014/10/13: add 'summary' parameter and more.  
+[JavaDoc diff from Version 2.1.0](/oldjavadocs/2.1.0-2.2.0/changes.html)
+
 ## Version 2.1 {#v21}
 Released on 2014/03/31: Batch Requests / Raw API support.  
 [JavaDoc diff from Version 2.0.5](/oldjavadocs/2.0.5-2.1.0/changes.html)
