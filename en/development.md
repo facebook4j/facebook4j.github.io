@@ -38,9 +38,10 @@ Running on [Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/o
 Atlassian is offering an Open Source Project License of Atlassian OnDemand to Facebook4J.org.
 
 # Continuous Integration {#ci}
-Facebook4J is built continuously by [Jenkins](https://roundrop.ci.cloudbees.com/job/F4J/) .  
-[![Jenkins](/images/jenkins_logo.png)](https://roundrop.ci.cloudbees.com/job/F4J/)  
-Running on [CloudBees](http://www.cloudbees.com) .
+Facebook4J is built continuously by [Travis CI](https://travis-ci.org/roundrop/facebook4j/builds) .  
+And get the great coverage reporting via [Coveralls](https://coveralls.io/r/roundrop/facebook4j).  
+[![Travis CI](/images/travis-logo.jpg)](https://travis-ci.org/)
+[![Coveralls](/images/coveralls-logo.jpg)](https://coveralls.io/)  
 
 # IDE {#ide}
 Facebook4J is a Mavenized project and you can use any IDE to play with Facebook4J. JetBrains is offering an Open Source Project License of IntelliJ IDEA to Facebook4J.org. Anyone who has contributed a patch can get access to the license file for improving Facebook4J. Please ask roundrop@gmail.com for more information.

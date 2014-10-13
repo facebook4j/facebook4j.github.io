@@ -38,9 +38,10 @@ Facebook4J はアトラシアン社の提供する課題管理ツール、[JIRA]
 Atlassian は Facebook4J.org に Atlassian OnDemand の Open Source Project License を提供しています。
 
 # 継続ビルド {#ci}
-Facebook4Jは継続ビルドに [Jenkins](https://roundrop.ci.cloudbees.com/job/F4J/) を使っています。  
-[![Jenkins](/images/jenkins_logo.png)](https://roundrop.ci.cloudbees.com/job/F4J/)  
-[CloudBees](http://www.cloudbees.com) 上で運用しています。
+Facebook4Jは継続ビルドに [Travis CI](https://travis-ci.org/roundrop/facebook4j/builds) を使っています。  
+カバレッジ計測には [Coveralls](https://coveralls.io/r/roundrop/facebook4j) を使っています。  
+[![Travis CI](/images/travis-logo.jpg)](https://travis-ci.org/)
+[![Coveralls](/images/coveralls-logo.jpg)](https://coveralls.io/)
 
 # IDE {#ide}
 Facecbook4J は Maven ベースのプロジェクトなので好きな IDE を利用することができます。JetBrains は Facebook4J.org に IntelliJ IDEA の Open Source Project License を提供しています。パッチを書いたことのある方はこの IntelliJ IDEA のライセンスファイルを使うことができます。詳しくは roundrop@gmail.com までお問い合わせください。
