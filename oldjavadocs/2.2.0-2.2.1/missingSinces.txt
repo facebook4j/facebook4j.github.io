@@ -1,0 +1,2 @@
+MISSING @SINCE TAG: facebook4j.api.UserMethods Method getPictureURL(int, int)
+MISSING @SINCE TAG: facebook4j.api.UserMethods Method getPictureURL(java.lang.String, int, int)
