@@ -6,6 +6,10 @@ keywords: バージョン,facebook4j
 ---
 # バージョン
 
+## バージョン 2.2.x {#v22x}
+[JavaDoc diff 2.2.1 - 2.2.2](/oldjavadocs/2.2.1-2.2.2/changes.html)  
+[JavaDoc diff 2.2.0 - 2.2.1](/oldjavadocs/2.2.0-2.2.1/changes.html)
+
 ## バージョン 2.2 {#v22}
 Released on 2014/10/13: summary パラメータ追加及び他改善.  
 [バージョン 2.1.0 からの JavaDoc diff](/oldjavadocs/2.1.0-2.2.0/changes.html)
