@@ -6,6 +6,10 @@ keywords: versions,facebook4j
 ---
 # Versions
 
+## Version 2.3 {#v23}
+Released on 2015/07/11: Supports v2.3 API /oauth/access_token response, {"success": true} response, and taggable_friends/tagged_places endpoints.  
+[JavaDoc diff from Version 2.2.2](/oldjavadocs/2.2.2-2.3.0/changes.html)
+
 ## Version 2.2.x {#v22x}
 [JavaDoc diff 2.2.1 - 2.2.2](/oldjavadocs/2.2.1-2.2.2/changes.html)  
 [JavaDoc diff 2.2.0 - 2.2.1](/oldjavadocs/2.2.0-2.2.1/changes.html)

@@ -23,16 +23,16 @@ pom.xml に以下のように記述してください。
     <dependency>
       <groupId>org.facebook4j</groupId>
       <artifactId>facebook4j-core</artifactId>
-      <version>[2.2,)</version>
+      <version>[2.3,)</version>
     </dependency>
 
 ## ダウンロード
 
 * 最新安定バージョン  
-[facebook4j-core-2.2.2.jar](/download/facebook4j-core-2.2.2.jar)
+[facebook4j-core-2.3.0.jar](/download/facebook4j-core-2.3.0.jar)
 
 # 使い方 {#how_to_use}
-facebook4j-core-2.2.2.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
+facebook4j-core-2.3.0.jar をクラスパスに通して、好きなメソッドを呼び出してください。  
 Java が分かっていれば [JavaDoc](/javadoc/index.html "JavaDoc") を見るのが早いです。  
 [facebook4j.Facebook](/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") が最初に見るべきインターフェイスです。  
 コード例は [コードサンプル | Facebook4J - A Java library for the Facebook Graph API](/ja/code-examples.html) をご覧ください。

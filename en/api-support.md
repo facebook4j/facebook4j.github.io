@@ -164,6 +164,7 @@ keywords: API Support,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#friends">/USER_ID/friends</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getFriends()">getFriends()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#friends">/USER_ID/friends/FRIEND_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getBelongsFriend(java.lang.String)">getBelongsFriend()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#mutualfriends">/USER_ID/mutualfriends/FRIEND_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getMutualFriends(java.lang.String)">getMutualFriends()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/taggable_friends/">/USER_ID/taggable_friends</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getTaggableFriends()">getTaggableFriends()</a></td></tr>
 </tbody></table>
 \* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#friends()">Facebook#friends()</a>.
 
@@ -239,6 +240,7 @@ keywords: API Support,facebook4j
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/locations</a><br />(see: Connections - locations)</td><td><a href="/javadoc/facebook4j/api/LocationMethods.html#getLocations()">getLocations()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/tagged_places/">/USER_ID/tagged_places</a></td><td><a href="/javadoc/facebook4j/api/LocationMethods.html#getTaggedPlaces()">getTaggedPlaces()</a></td></tr>
 </tbody></table>
 \* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#locations()">Facebook#locations()</a>.
 
