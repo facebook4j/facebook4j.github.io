@@ -1,0 +1,6 @@
+MISSING @SINCE TAG: facebook4j.api.PermissionMethods Method deleteAllPermissions()
+MISSING @SINCE TAG: facebook4j.api.PermissionMethods Method deleteAllPermissions(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.FriendMethods Method getTaggableFriends(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.FriendMethods Method getTaggableFriends(java.lang.String, facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.PermissionMethods Method revokeAllPermissions()
+MISSING @SINCE TAG: facebook4j.api.PermissionMethods Method revokeAllPermissions(java.lang.String)

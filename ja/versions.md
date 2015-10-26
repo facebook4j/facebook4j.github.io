@@ -6,6 +6,9 @@ keywords: バージョン,facebook4j
 ---
 # バージョン
 
+## バージョン 2.3.x {#v23x}
+[バージョン 2.3.0 からの JavaDoc diff](/oldjavadocs/2.3.0-2.3.1/changes.html)
+
 ## バージョン 2.3 {#v23}
 Released on 2015/07/11: v2.3 API の /oauth/access_token レスポンス対応、 {"success": true} 形式のレスポンス対応、 taggable_friends/tagged_places エンドポイントに対応  
 [バージョン 2.2.2 からの JavaDoc diff](/oldjavadocs/2.2.2-2.3.0/changes.html)

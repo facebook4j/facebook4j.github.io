@@ -305,8 +305,9 @@ keywords: サポートAPI,facebook4j
 ## Permission {#permission}
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">エンドポイント</th><th>Facebook4J のメソッド</th></tr></thead>
 <tbody>
-<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#permissions">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#getPermissions()">getPermissions()</a></td></tr>
-<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#permissions">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#revokePermission(java.lang.String)">revokePermission()</a><br /><a href="/javadoc/facebook4j/api/PermissionMethods.html#deletePermission(java.lang.String)">deletePermission()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/permissions/">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#getPermissions()">getPermissions()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/permissions/">/USER_ID/permissions/PERMISSION_NAME</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#deletePermission(java.lang.String)">deletePermission()</a></td></tr>
+<tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/permissions/#Deleting">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#deleteAllPermissions()">deleteAllPermissions()</a></td></tr>
 </tbody></table>
 \* <a href="/javadoc/facebook4j/Facebook.html#permissions()">Facebook#permissions()</a> でこれらのメソッドに絞り込むことができます。
 
