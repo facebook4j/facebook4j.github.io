@@ -1,0 +1,25 @@
+NO DOC BLOCK: facebook4j.Comment.Attachment Interface
+NO DOC BLOCK: facebook4j.Comment.Attachment.AttachmentMedia Interface
+NO DOC BLOCK: facebook4j.Comment.Attachment.AttachmentTarget Interface
+NO DOC BLOCK: facebook4j.CommentUpdate Class
+MISSING @SINCE TAG: facebook4j.Image Interface
+OK: facebook4j.Ordering Class
+NO DOC BLOCK: facebook4j.Reading Method addParameter(java.lang.String, java.lang.Object)
+NO DOC BLOCK: facebook4j.Comment Method canComment()
+NO DOC BLOCK: facebook4j.Comment Method canHide()
+NO DOC BLOCK: facebook4j.Comment Method canLike()
+MISSING @SINCE TAG: facebook4j.api.AlbumMethods Method commentAlbum(java.lang.String, facebook4j.CommentUpdate)
+MISSING @SINCE TAG: facebook4j.api.LinkMethods Method commentLink(java.lang.String, facebook4j.CommentUpdate)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method commentPhoto(java.lang.String, facebook4j.CommentUpdate)
+MISSING @SINCE TAG: facebook4j.api.PostMethods Method commentPost(java.lang.String, facebook4j.CommentUpdate)
+MISSING @SINCE TAG: facebook4j.api.VideoMethods Method commentVideo(java.lang.String, facebook4j.CommentUpdate)
+NO DOC BLOCK: facebook4j.Comment Method getAttachment()
+MISSING @SINCE TAG: facebook4j.api.CommentMethods Method getComment(java.lang.String, facebook4j.Reading)
+NO DOC BLOCK: facebook4j.Comment Method getCommentCount()
+MISSING @SINCE TAG: facebook4j.api.CommentMethods Method getCommentReplies(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.CommentMethods Method getCommentReplies(java.lang.String, facebook4j.Reading)
+NO DOC BLOCK: facebook4j.Comment Method getMessageTags()
+NO DOC BLOCK: facebook4j.Comment Method getParent()
+NO DOC BLOCK: facebook4j.Reading Method includeHidden(boolean)
+NO DOC BLOCK: facebook4j.Reading Method order(facebook4j.Ordering)
+NO DOC BLOCK: facebook4j.Reading Method showExpired(boolean)

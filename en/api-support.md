@@ -65,6 +65,7 @@ keywords: API Support,facebook4j
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/">/COMMENT_ID</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#getComment(java.lang.String)">getComment()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/">/COMMENT_ID/comments</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#getCommentReplies(java.lang.String)">getCommentReplies()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/">/COMMENT_ID</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#deleteComment(java.lang.String)">deleteComment()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/">/COMMENT_ID/likes</a><br />(see: Connections - likes)</td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#getCommentLikes(java.lang.String)">getCommentLikes()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/#likes">/COMMENT_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#likeComment(java.lang.String)">likeComment()</a></td></tr>

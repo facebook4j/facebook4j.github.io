@@ -7,6 +7,7 @@ keywords: バージョン,facebook4j
 # バージョン
 
 ## バージョン 2.3.x {#v23x}
+[JavaDoc diff 2.3.1 - 2.3.2](/oldjavadocs/2.3.1-2.3.2/changes.html)  
 [バージョン 2.3.0 からの JavaDoc diff](/oldjavadocs/2.3.0-2.3.1/changes.html)
 
 ## バージョン 2.3 {#v23}
