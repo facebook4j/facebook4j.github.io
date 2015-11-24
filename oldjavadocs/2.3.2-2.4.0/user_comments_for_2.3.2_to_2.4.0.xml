@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<comments
+  xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+  xsi:noNamespaceSchemaLocation='comments.xsd'
+  name="2.3.2_to_2.4.0"
+  jdversion="1.1.1">
+
+<!-- This file contains comments for a JDiff report. -->
+<!-- It is used only in generating the report, and does not need to ship with the final report. -->
+
+<!-- The id attribute in an identifier element identifies the change as noted in the report. -->
+<!-- An id has the form package[.class[.[ctor|method|field].signature]], where [] indicates optional text. -->
+<!-- A comment element can have multiple identifier elements, which will -->
+<!-- will cause the same text to appear at each place in the report, but -->
+<!-- will be converted to separate comments when the comments file is used. -->
+<!-- HTML tags in the text field will appear in the report. -->
+<!-- You also need to close p HTML elements, used for paragraphs - see the top-level documentation. -->
+<comment>
+  <identifier id="facebook4j.auth"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.AccessToken"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.AccessToken.getAuthNonce_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.AuthOption"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.AuthType"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.DeviceCode"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.DialogAuthOption"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.Display"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.NullAuthOption"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.extendTokenExpiration_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.extendTokenExpiration_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getAccessTokenInfoURL_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getExtendTokenURL_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getOAuthAccessTokenInfo_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getOAuthAccessTokenInfo_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getOAuthAuthorizationURL_added(java.lang.String, facebook4j.auth.AuthOption)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getOAuthDeviceCode_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getOAuthDeviceToken_added(facebook4j.auth.DeviceCode)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthAuthorization.getOAuthReAuthenticationURL_added(java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.extendTokenExpiration_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.extendTokenExpiration_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.getOAuthAccessTokenInfo_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.getOAuthAccessTokenInfo_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.getOAuthAuthorizationURL_added(java.lang.String, facebook4j.auth.AuthOption)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.getOAuthDeviceCode_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.getOAuthDeviceToken_added(facebook4j.auth.DeviceCode)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.auth.OAuthSupport.getOAuthReAuthenticationURL_added(java.lang.String, java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.Configuration"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.Configuration.getOAuthAccessTokenInfoURL_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.Configuration.getOAuthDeviceTokenURL_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.ConfigurationBase"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.ConfigurationBase.getOAuthAccessTokenInfoURL_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.ConfigurationBase.getOAuthDeviceTokenURL_added()"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.ConfigurationBase.setOAuthAccessTokenInfoURL_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.ConfigurationBase.setOAuthDeviceTokenURL_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.ConfigurationBuilder"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.ConfigurationBuilder.setOAuthDeviceTokenURL_added(java.lang.String)"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.PropertyConfiguration"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.PropertyConfiguration.OAUTH_ACCESS_TOKEN_INFO_URL"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+<comment>
+  <identifier id="facebook4j.conf.PropertyConfiguration.OAUTH_DEVICE_TOKEN_URL"/>
+  <text>
+    InsertCommentsHere
+  </text>
+</comment>
+
+</comments>

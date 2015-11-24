@@ -1,0 +1,34 @@
+OK: facebook4j.auth.AuthOption Interface
+OK: facebook4j.auth.AuthType Class
+OK: facebook4j.auth.DeviceCode Class
+OK: facebook4j.auth.DialogAuthOption Class
+OK: facebook4j.auth.Display Class
+OK: facebook4j.auth.NullAuthOption Class
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method extendTokenExpiration()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method extendTokenExpiration(java.lang.String)
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method extendTokenExpiration()
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method extendTokenExpiration(java.lang.String)
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getAccessTokenInfoURL(java.lang.String)
+NO DOC BLOCK: facebook4j.auth.AccessToken Method getAuthNonce()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getExtendTokenURL(java.lang.String)
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthAccessTokenInfo()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthAccessTokenInfo(java.lang.String)
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method getOAuthAccessTokenInfo()
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method getOAuthAccessTokenInfo(java.lang.String)
+NO DOC BLOCK: facebook4j.conf.Configuration Method getOAuthAccessTokenInfoURL()
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method getOAuthAccessTokenInfoURL()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthAuthorizationURL(java.lang.String, facebook4j.auth.AuthOption)
+NO DOC BLOCK: facebook4j.auth.OAuthSupport Method getOAuthAuthorizationURL(java.lang.String, facebook4j.auth.AuthOption)
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthDeviceCode()
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method getOAuthDeviceCode()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthDeviceToken(facebook4j.auth.DeviceCode)
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method getOAuthDeviceToken(facebook4j.auth.DeviceCode)
+NO DOC BLOCK: facebook4j.conf.Configuration Method getOAuthDeviceTokenURL()
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method getOAuthDeviceTokenURL()
+NO DOC BLOCK: facebook4j.auth.OAuthAuthorization Method getOAuthReAuthenticationURL(java.lang.String, java.lang.String)
+MISSING @SINCE TAG: facebook4j.auth.OAuthSupport Method getOAuthReAuthenticationURL(java.lang.String, java.lang.String)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method setOAuthAccessTokenInfoURL(java.lang.String)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBase Method setOAuthDeviceTokenURL(java.lang.String)
+NO DOC BLOCK: facebook4j.conf.ConfigurationBuilder Method setOAuthDeviceTokenURL(java.lang.String)
+NO DOC BLOCK: facebook4j.conf.PropertyConfiguration Field OAUTH_ACCESS_TOKEN_INFO_URL
+NO DOC BLOCK: facebook4j.conf.PropertyConfiguration Field OAUTH_DEVICE_TOKEN_URL

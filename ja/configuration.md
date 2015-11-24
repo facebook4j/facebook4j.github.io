@@ -56,7 +56,7 @@ OSの環境変数から設定をすることもできます。環境変数から
     $ export facebook4j.oauth.appSecret=******************************************
     $ export facebook4j.oauth.accessToken=**************************************************
     $ export facebook4j.oauth.permissions=email,publish_stream,...
-    $ java -cp facebook4j-core-2.3.2.jar:yourApp.jar yourpackage.Main
+    $ java -cp facebook4j-core-2.4.0.jar:yourApp.jar yourpackage.Main
 
 On Heroku:
 
@@ -143,6 +143,8 @@ On Heroku:
 <tr><td>videoBaseURL</td><td>Video API のベース URL</td><td>https://graph-video.facebook.com/</td></tr>
 <tr><td>oauth.authorizationURL</td><td>OAuth 認可の URL</td><td>https://www.facebook.com/dialog/oauth</td></tr>
 <tr><td>oauth.accessTokenURL</td><td>OAuth アクセストークン取得の URL</td><td>https://graph.facebook.com/oauth/access_token</td></tr>
+<tr><td>oauth.accessTokenInfoURL</td><td>OAuth アクセストークン情報取得の URL</td><td>https://graph.facebook.com/oauth/access_token_info</td></tr>
+<tr><td>oauth.deviceTokenURL</td><td>OAuth デバイスアクセストークン取得の URL</td><td>http://graph.facebook.com/oauth/device</td></tr>
 </tbody>
 </table>
 

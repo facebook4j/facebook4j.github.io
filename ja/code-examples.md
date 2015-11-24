@@ -42,6 +42,18 @@ Facebook.getOAuthAppAccessToken() メソッドで App アクセストークン�
     Account yourPageAccount = accounts.get(0);  // インデックス0がFacebookページのアカウントの場合
     String pageAccessToken = yourPageAccount.getAccessToken();
 
+### デバイスアクセストークンの取得
+Facebook デバイスログインを使うと、簡単かつ安全に制限された入力や表示しかできないデバイス上で自分の Facebook のアカウントを使用してアプリケーションやサービスにログインすることができます。
+(Facebook のドキュメント: [Facebook Login for Devices](https://developers.facebook.com/docs/facebook-login/for-devices) )
+実装例が [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) にあります。
+
+### アクセストークンの有効期限延長
+(Facebook のドキュメント: [Expiration and Extension of Access Tokens](https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and-extension) )
+以下のようにしてアクセストークンの有効期限を延長することができます。
+
+    String shortLivedToken = "your-short-lived-token";
+    AccessToken extendedToken = facebook.extendTokenExpiration(shortLivedToken);
+
 - - -
 
 ## メッセージ投稿 {#post_message}

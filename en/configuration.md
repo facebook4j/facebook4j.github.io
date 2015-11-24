@@ -44,7 +44,7 @@ You can configure Facebook4J via System properties as well. Note that you need "
         -Dfacebook4j.oauth.appSecret=******************************************
         -Dfacebook4j.oauth.accessToken=**************************************************
         -Dfacebook4j.oauth.permissions=email,publish_stream,...
-        -cp facebook4j-core-2.3.2.jar:yourApp.jar yourpackage.Main
+        -cp facebook4j-core-2.4.0.jar:yourApp.jar yourpackage.Main
 
 - - -
 
@@ -56,7 +56,7 @@ You can configure Facebook4J via environment variables as well. Note that you ne
     $ export facebook4j.oauth.appSecret=******************************************
     $ export facebook4j.oauth.accessToken=**************************************************
     $ export facebook4j.oauth.permissions=email,publish_stream,...
-    $ java -cp facebook4j-core-2.3.2.jar:yourApp.jar yourpackage.Main
+    $ java -cp facebook4j-core-2.4.0.jar:yourApp.jar yourpackage.Main
 
 On Heroku:
 
@@ -143,6 +143,8 @@ for the detail.</td><td>null</td></tr>
 <tr><td>videoBaseURL</td><td>Video API base URL</td><td>https://graph-video.facebook.com/</td></tr>
 <tr><td>oauth.authorizationURL</td><td>OAuth authorization URL</td><td>https://www.facebook.com/dialog/oauth</td></tr>
 <tr><td>oauth.accessTokenURL</td><td>OAuth access token URL</td><td>https://graph.facebook.com/oauth/access_token</td></tr>
+<tr><td>oauth.accessTokenInfoURL</td><td>OAuth access token information URL</td><td>https://graph.facebook.com/oauth/access_token_info</td></tr>
+<tr><td>oauth.deviceTokenURL</td><td>OAuth device access token URL</td><td>http://graph.facebook.com/oauth/device</td></tr>
 </tbody>
 </table>
 
