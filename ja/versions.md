@@ -6,6 +6,10 @@ keywords: バージョン,facebook4j
 ---
 # バージョン
 
+## バージョン 2.4.x {#v24x}
+[JavaDoc diff 2.4.0 - 2.4.1](/oldjavadocs/2.4.0-2.4.1/changes.html)  
+[JavaDoc diff 2.4.1 - 2.4.2](/oldjavadocs/2.4.1-2.4.2/changes.html)
+
 ## バージョン 2.4 {#v24}
 Released on 2015/11/24: いくつかのアクセストークン関連メソッドを追加等
 [バージョン 2.3.2 からの JavaDoc diff](/oldjavadocs/2.3.2-2.4.0/changes.html)

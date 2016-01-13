@@ -6,6 +6,10 @@ keywords: versions,facebook4j
 ---
 # Versions
 
+## Version 2.4.x {#v24x}
+[JavaDoc diff 2.4.0 - 2.4.1](/oldjavadocs/2.4.0-2.4.1/changes.html)  
+[JavaDoc diff 2.4.1 - 2.4.2](/oldjavadocs/2.4.1-2.4.2/changes.html)  
+
 ## Version 2.4 {#v24}
 Released on 2015/11/24: Added some access token operations.
 [JavaDoc diff from 2.3.2](/oldjavadocs/2.3.2-2.4.0/changes.html)  
