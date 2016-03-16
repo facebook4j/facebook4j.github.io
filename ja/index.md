@@ -42,7 +42,7 @@ Java が分かっていれば [JavaDoc](/javadoc/index.html "JavaDoc") を見る
 プロジェクトのリポジトリは <a href="https://github.com/roundrop/facebook4j" target="_blank"> `https://github.com/roundrop/facebook4j` </a>です。
 
 <div class="github-card" data-user="roundrop" data-repo="facebook4j" data-width="400" data-height="153"></div>
-<script src="http://lab.lepture.com/github-cards/widget.js"></script>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 # ライセンス {#license}
 Facebook4J は Apache License 2.0 に基づいてリリースされています。

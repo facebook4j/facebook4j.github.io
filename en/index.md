@@ -41,7 +41,7 @@ Code examples: [Code Examples | Facebook4J - A Java library for the Facebook Gra
 The project repository URL is <a href="https://github.com/roundrop/facebook4j" target="_blank"> `https://github.com/roundrop/facebook4j` </a>
 
 <div class="github-card" data-user="roundrop" data-repo="facebook4j" data-width="400" data-height="153"></div>
-<script src="http://lab.lepture.com/github-cards/widget.js"></script>
+<script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
 # License {#license}
 Facebook4J is released under Apache License 2.0.
