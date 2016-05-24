@@ -1,0 +1,13 @@
+NO DOC BLOCK: facebook4j.Reaction Interface
+OK: facebook4j.ReactionType Class
+MISSING @SINCE TAG: facebook4j.api.AlbumMethods Method getAlbumReactions(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.AlbumMethods Method getAlbumReactions(java.lang.String, facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getPhotoReactions(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getPhotoReactions(java.lang.String, facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.PostMethods Method getPostReactions(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.PostMethods Method getPostReactions(java.lang.String, facebook4j.Reading)
+NO DOC BLOCK: facebook4j.Album Method getReactions()
+NO DOC BLOCK: facebook4j.Photo Method getReactions()
+NO DOC BLOCK: facebook4j.Post Method getReactions()
+MISSING @SINCE TAG: facebook4j.api.VideoMethods Method getVideoReactions(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.VideoMethods Method getVideoReactions(java.lang.String, facebook4j.Reading)

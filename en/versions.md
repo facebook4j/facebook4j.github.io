@@ -7,6 +7,7 @@ keywords: versions,facebook4j
 # Versions
 
 ## Version 2.4.x {#v24x}
+[JavaDoc diff 2.4.3 - 2.4.4](/oldjavadocs/2.4.3-2.4.4/changes.html)  
 [JavaDoc diff 2.4.2 - 2.4.3](/oldjavadocs/2.4.2-2.4.3/changes.html)  
 [JavaDoc diff 2.4.1 - 2.4.2](/oldjavadocs/2.4.1-2.4.2/changes.html)  
 [JavaDoc diff 2.4.0 - 2.4.1](/oldjavadocs/2.4.0-2.4.1/changes.html)

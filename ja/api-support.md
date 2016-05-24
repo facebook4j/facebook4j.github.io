@@ -40,6 +40,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/albums</a><br />(see: Connections - albums)</td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbums()">getAlbums()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/albums</a><br />(see: Connections - albums)</td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbums()">getAlbums()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#albums">/USER_ID/albums</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#createAlbum(facebook4j.AlbumCreate)">createAlbum()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/post/reactions">/ALBUM_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbumReactions(java.lang.String)">getAlbumReactions()</a></td></tr>
 </tbody></table>
 \* <a href="/javadoc/facebook4j/Facebook.html#albums()">Facebook#albums()</a> でこれらのメソッドに絞り込むことができます。
 
@@ -369,6 +370,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/photos</a><br />(see: Connections - photos)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhotos()">getPhotos()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#photos">/USER_ID/photos</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#postPhoto(facebook4j.Media)">postPhoto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/photos/uploaded</a><br />(see: Connections - photos/uploaded)</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getUploadedPhotos()">getUploadedPhotos()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/photo/reactions">/PHOTO_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhotoReactions(java.lang.String)">getPhotoReactions()</a></td></tr>
 </tbody></table>
 \* <a href="/javadoc/facebook4j/Facebook.html#photos()">Facebook#photos()</a> でこれらのメソッドに絞り込むことができます。
 
@@ -410,6 +412,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/posts</a><br />(see: Connections - posts)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPosts()">getPosts()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/posts</a><br />(see: Connections - posts)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPosts()">getPosts()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/tagged</a><br />(see: Connections - tagged)</td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getTagged()">getTagged()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/post/reactions">/POST_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPostReactions(java.lang.String)">getPostReactions()</a></td></tr>
 </tbody></table>
 \* <a href="/javadoc/facebook4j/Facebook.html#posts()">Facebook#posts()</a> でこれらのメソッドに絞り込むことができます。
 
@@ -472,6 +475,7 @@ keywords: サポートAPI,facebook4j
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/videos</a><br />(see: Connections - videos)</td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideos()">getVideos()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#videos">/USER_ID/videos</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#postVideo(facebook4j.Media)">postVideo()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#videos">/PAGE_ID/videos</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#postVideo(facebook4j.Media)">postVideo()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/video/reactions">/VIDEO_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideoReactions(java.lang.String)">getPostReactions()</a></td></tr>
 </tbody></table>
 \* <a href="/javadoc/facebook4j/Facebook.html#videos()">Facebook#videos()</a> でこれらのメソッドに絞り込むことができます。
 
