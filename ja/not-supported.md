@@ -16,9 +16,6 @@ Facebook4Jは下記をまだサポートしていません。
 ## Real-time Updates
 [Realtime Updates - Facebook Developers](https://developers.facebook.com/docs/reference/api/realtime/)
 
-## Field Expansion
-[Field Expansion - Facebook Developers](https://developers.facebook.com/docs/reference/api/field_expansion/)
-
 ## Open Graph API
 [Open Graph - Facebook Developers](https://developers.facebook.com/docs/opengraph/)
 
