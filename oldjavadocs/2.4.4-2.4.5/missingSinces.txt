@@ -1,0 +1,7 @@
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getPhotoSharedposts(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.PhotoMethods Method getPhotoSharedposts(java.lang.String, facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.PostMethods Method getSharedPosts(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.PostMethods Method getSharedPosts(java.lang.String, facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.VideoMethods Method getVideoSharedposts(java.lang.String)
+MISSING @SINCE TAG: facebook4j.api.VideoMethods Method getVideoSharedposts(java.lang.String, facebook4j.Reading)
+MISSING @SINCE TAG: facebook4j.api.SearchMethods Method search(java.lang.String, java.lang.String, facebook4j.Reading)
