@@ -56,7 +56,7 @@ OSの環境変数から設定をすることもできます。環境変数から
     $ export facebook4j.oauth.appSecret=******************************************
     $ export facebook4j.oauth.accessToken=**************************************************
     $ export facebook4j.oauth.permissions=email,publish_stream,...
-    $ java -cp facebook4j-core-2.4.5.jar:yourApp.jar yourpackage.Main
+    $ java -cp facebook4j-core-2.4.6.jar:yourApp.jar yourpackage.Main
 
 On Heroku:
 

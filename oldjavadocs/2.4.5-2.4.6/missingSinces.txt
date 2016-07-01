@@ -1,0 +1,7 @@
+NO DOC BLOCK: facebook4j.FacebookResponse.Metadata.Fields Interface
+NO DOC BLOCK: facebook4j.FacebookResponse.Metadata.Fields.Field Interface
+MISSING @SINCE TAG: facebook4j.Page Method getCompanyOverview()
+MISSING @SINCE TAG: facebook4j.Page Method getFanCount()
+NO DOC BLOCK: facebook4j.FacebookResponse.Metadata Method getFields()
+NO DOC BLOCK: facebook4j.Post Method getParentId()
+NO DOC BLOCK: facebook4j.FacebookResponse.Metadata Method getType()
