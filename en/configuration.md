@@ -44,7 +44,7 @@ You can configure Facebook4J via System properties as well. Note that you need "
         -Dfacebook4j.oauth.appSecret=******************************************
         -Dfacebook4j.oauth.accessToken=**************************************************
         -Dfacebook4j.oauth.permissions=email,publish_stream,...
-        -cp facebook4j-core-2.4.6.jar:yourApp.jar yourpackage.Main
+        -cp facebook4j-core-2.4.7.jar:yourApp.jar yourpackage.Main
 
 - - -
 
@@ -56,7 +56,7 @@ You can configure Facebook4J via environment variables as well. Note that you ne
     $ export facebook4j.oauth.appSecret=******************************************
     $ export facebook4j.oauth.accessToken=**************************************************
     $ export facebook4j.oauth.permissions=email,publish_stream,...
-    $ java -cp facebook4j-core-2.4.6.jar:yourApp.jar yourpackage.Main
+    $ java -cp facebook4j-core-2.4.7.jar:yourApp.jar yourpackage.Main
 
 On Heroku:
 
