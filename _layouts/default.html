@@ -46,9 +46,11 @@
       <div class="sidebar">
         <div class="well">
          {% if locale == "ja" %}
-          <div style="text-align:center"><a id="lang-link" href="../en/{{ current_html }}">English</a> | Japanese</div>
+          <div style="text-align:center"><a id="lang-link" href="../en/{{ current_html }}">English</a> | Japanese | <a id="lang-link" href="../zh/{{ current_html }}">简体中文</a> </div>
+         {% elseif local == "zh" %}
+          <div style="text-align:center"><a id="lang-link" href="../ja/{{ current_html }}">Japanese</a> | <a id="lang-link" href="../en/{{ current_html }}">English</a> | 简体中文</div>
          {% else %}
-          <div style="text-align:center">English | <a id="lang-link" href="../ja/{{ current_html }}">Japanese</a></div>
+          <div style="text-align:center">English | <a id="lang-link" href="../ja/{{ current_html }}">Japanese</a> | <a id="lang-link" href="../zh/{{ current_html }}">简体中文</a></div>
          {% endif %}
           <br />
 
