@@ -99,7 +99,7 @@
 </div>
 <a href='http://www.pledgie.com/campaigns/22235'><img alt='Click here to lend your support to: Facebook4J and make a donation at www.pledgie.com !' src='http://www.pledgie.com/campaigns/22235.png?skin_name=chrome' border='0' /></a>
 
-{% else %}
+{% elseif locale == "zh"  %}
 
 <h5><a href="/en/index.html">Main</a></h5>
 <ul style="display: {% if current_html == "index.html" %}block{% else %}none{% endif %};">
@@ -116,6 +116,112 @@
 <ul style="display: {% if current_html == "code-examples.html" %}block{% else %}none{% endif %};">
   <li><a href="#getting_facebook_instance">Getting Facebook Instance</a></li>
   <li><a href="#oauth">OAuth support</a></li>
+  <li><a href="#post_message">Publishing a message</a></li>
+  <li><a href="#post_link">Publishing a link</a></li>
+  <li><a href="#getting_newsfeed">Getting News Feed</a></li>
+  <li><a href="#post_like">Like</a></li>
+  <li><a href="#post_comment">Publishing a comment</a></li>
+  <li><a href="#search">Searching</a></li>
+  <li><a href="#execute_fql">Executing FQL</a></li>
+  <li><a href="#execute_batch">Executing Batch Requests</a></li>
+  <li><a href="#execute_raw">Executing Raw API</a></li>
+  <li><a href="#reading">Reading options</a></li>
+  <li><a href="#paging">Pagination</a></li>
+</ul>
+<h5><a href="/en/configuration.html">Configuration</a></h5>
+<ul style="display: {% if current_html == "configuration.html" %}block{% else %}none{% endif %};">
+  <li><a href="#generic_properties">Generic properties</a></li>
+  <li><a href="#configuration_properties">Available Configuration Properties</a></li>
+  <li><a href="#logger_configuration">Logger Configuration</a></li>
+</ul>
+<h5><a href="/en/api-support.html">API Support matrix</a></h5>
+<ul style="display: {% if current_html == "api-support.html" %}block{% else %}none{% endif %};">
+  <li><a href="#account">Account</a></li>
+  <li><a href="#activity">Activity</a></li>
+  <li><a href="#album">Album</a></li>
+  <li><a href="#checkin">Checkin</a></li>
+  <li><a href="#comment">Comment</a></li>
+  <li><a href="#domain">Domain</a></li>
+  <li><a href="#event">Event</a></li>
+  <li><a href="#family">Family</a></li>
+  <li><a href="#favorite">Favorite</a></li>
+  <li><a href="#friend">Friend</a></li>
+  <li><a href="#game">Game</a></li>
+  <li><a href="#group">Group</a></li>
+  <li><a href="#insight">Insight</a></li>
+  <li><a href="#like">Like</a></li>
+  <li><a href="#link">Link</a></li>
+  <li><a href="#location">Location</a></li>
+  <li><a href="#message">Message</a></li>
+  <li><a href="#note">Note</a></li>
+  <li><a href="#notification">Notification</a></li>
+  <li><a href="#page">Page</a></li>
+  <li><a href="#permission">Permission</a></li>
+  <li><a href="#photo">Photo</a></li>
+  <li><a href="#poke">Poke</a></li>
+  <li><a href="#post">Post</a></li>
+  <li><a href="#question">Question</a></li>
+  <li><a href="#subscribe">Subscribe</a></li>
+  <li><a href="#user">User</a></li>
+  <li><a href="#video">Video</a></li>
+  <li><a href="#testuser">TestUser</a></li>
+  <li><a href="#fql">FQL</a></li>
+  <li><a href="#search">Search</a></li>
+  <li><a href="#batch">Batch</a></li>
+</ul>
+<h5><a href="/en/versions.html">Versions</a></h5>
+<h5><a href="/en/development.html">Development</a></h5>
+<ul style="display: {% if current_html == "development.html" %}block{% else %}none{% endif %};">
+  <li><a href="#join-development">Join the development</a></li>
+  <li><a href="#coding-convention">Coding convention</a></li>
+  <li><a href="#issue-management">Issue management</a></li>
+  <li><a href="#ci">Continuous Integration</a></li>
+  <li><a href="#ide">IDE</a></li>
+</ul>
+<h5><a href="/en/not-supported.html">NOT Supported yet</a></h5>
+<h5><a href="/en/faq.html">FAQ</a></h5>
+<hr />
+<div>
+  <ul>
+  <li>
+    <a href="/javadoc/index.html">Javadoc</a>
+  </li>
+  <li>
+    <a href="https://roundrop.atlassian.net/browse/FFJ">Issue Tracker</a>
+  </li>
+  <li>
+    <a href="https://twitter.com/facebook4j" class="twitter-follow-button" data-show-count="false">Follow @facebook4j</a>
+    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src="//platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+  </li>
+  <li>
+    <a href="http://groups.google.com/group/facebook4j">Mailing list</a>
+  </li>
+  </ul>
+</div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="hosted_button_id" value="S45MRBZF7UN8C">
+<input type="image" src="https://www.paypalobjects.com/webstatic/en_US/btn/btn_donate_pp_142x27.png" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" style="width: auto;height: auto;padding: 0;border: none;">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+{% else %}
+
+<h5><a href="/en/index.html">主页</a></h5>
+<ul style="display: {% if current_html == "index.html" %}block{% else %}none{% endif %};">
+  <li><a href="#introduction">简介</a></li>
+  <li><a href="#system_requirements">系统要求</a></li>
+  <li><a href="#how_to_install">安装</a></li>
+  <li><a href="#how_to_use">使用</a></li>
+  <li><a href="#source_code">源码</a></li>
+  <li><a href="#license">证书</a></li>
+  <li><a href="#contributors">贡献者</a></li>
+  <li><a href="#donation">捐赠</a></li>
+</ul>
+<h5><a href="/en/code-examples.html">代码示例</a></h5>
+<ul style="display: {% if current_html == "code-examples.html" %}block{% else %}none{% endif %};">
+  <li><a href="#getting_facebook_instance">初始化</a></li>
+  <li><a href="#oauth">授权</a></li>
   <li><a href="#post_message">Publishing a message</a></li>
   <li><a href="#post_link">Publishing a link</a></li>
   <li><a href="#getting_newsfeed">Getting News Feed</a></li>
