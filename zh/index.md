@@ -1,23 +1,23 @@
 ---
 layout: default
-title: Facebook4J - A most easily usable Facebook API wrapper in Java
-description: Facebook4J is an open-sourced, mavenized Java library. With Facebook4J, you can easily integrate your application with the Facebook API. Facebook4J is an unofficial library.
+title: Facebook4J - 使用Java编写的非常简洁易用的Facebook图谱API工具
+description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Facebook4j进行Facebook图谱API开发
 keywords: facebook,java,facebook4j
 ---
-# Introduction {#introduction}
-Facebook4J is an unofficial Java library for the Facebook Graph API.  
-Facebook4J is featuring:  
+# 简介 {#introduction}
+Facebook4J 是非官方的Facebook图谱API开发工具包.  
+Facebook4J 特色:  
 
-* 100% Pure Java - works on any Java Platform version 5 or later
-* Zero dependency : No additional jars required
-* Built-in OAuth support
+* 100%原生Java，可以运行在JDK 5+ 版本
+* 零依赖，不需要任何额外扩展包
+* 内置OAuth支持
 
-# System Requirements {#system_requirements}
-Java 5 or later
+# 环境要求 {#system_requirements}
+Java 5 及更高版本
 
-# How To Install {#how_to_install}
+# 安装 {#how_to_install}
 
-## Maven Integration
+## Maven依赖配置
 
     <dependency>
       <groupId>org.facebook4j</groupId>
@@ -25,26 +25,25 @@ Java 5 or later
       <version>[2.4,)</version>
     </dependency>
 
-## Download
+## 下载
 
-* Latest stable version  
+* 最新版本  
 [facebook4j-core-2.4.7.jar](/download/facebook4j-core-2.4.7.jar)
 
-# How To Use {#how_to_use}
-Just add facebook4j-core-2.4.7.jar to your application classpath.  
-If you are familiar with Java language, looking into the [JavaDoc](/javadoc/index.html "JavaDoc") should be the shortest way for you to get started.
-[facebook4j.Facebook](/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") interface is the one you may want to look at first.  
-Code examples: [Code Examples | Facebook4J - A Java library for the Facebook Graph API](/en/code-examples.html)
+# 使用方法 {#how_to_use}
+只需要把facebook4j-core-2.4.7.jar配置到应用的环境变量。
+如果你已经比较熟悉Java开发，可以直接从[JavaDoc](/javadoc/index.html "JavaDoc")开始。不过[facebook4j.Facebook](/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") 接口你需要先看。
+代码示例：[Code Examples | Facebook4J - A Java library for the Facebook Graph API](/zh/code-examples.html)
 
-# Source Code {#source_code}
+# 源码 {#source_code}
 
-The project repository URL is <a href="https://github.com/roundrop/facebook4j" target="_blank"> `https://github.com/roundrop/facebook4j` </a>
+项目源码地址： <a href="https://github.com/roundrop/facebook4j" target="_blank"> `https://github.com/roundrop/facebook4j` </a>
 
 <div class="github-card" data-user="roundrop" data-repo="facebook4j" data-width="400" data-height="153"></div>
 <script src="//cdn.jsdelivr.net/github-cards/latest/widget.js"></script>
 
-# License {#license}
-Facebook4J is released under Apache License 2.0.
+# 开放源码许可证 {#license}
+Facebook4J 在 Apache License 2.0 许可发布.
 
     Copyright 2012 Ryuji Yamashita
     
@@ -60,15 +59,13 @@ Facebook4J is released under Apache License 2.0.
     See the License for the specific language governing permissions and
     limitations under the License.
 
-Facebook4J includes software from Twitter4J to handle HTTP request/response and greatly internal logic. You can see the license term at [http://twitter4j.org/en/index.html#license](http://twitter4j.org/en/index.html#license)
+Facebook4J在处理HTTP请求时使用了Twitter4J，可以查看许可证：[http://twitter4j.org/en/index.html#license](http://twitter4j.org/en/index.html#license)。
 
-# Contributors {#contributors}
+# 贡献者 {#contributors}
 **Ryuji Yamashita** &lt;roundrop at gmail.com&gt; @roundrop
 
-# Donation {#donation}
-Facebook4J is an opensourced software and free of charge.  
-You can use Facebook4J freely for any commercial and non-commercial projects.  
-If you feel Facebook4J makes your life easier, please do consider making a donation!  
+# 捐赠 {#donation}
+Facebook4J 是开源的工具包，你可以在任何商业和非商业的项目里面使用Facebook4J，如果您觉得Facebook4J对您有帮助，可以捐赠。
   
 <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
