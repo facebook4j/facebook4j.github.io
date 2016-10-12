@@ -3,55 +3,55 @@
 
 <!--  created with free sitemap generation system www.sitemapxml.jp  --> 
 <url>
-  <loc>http://facebook4j.org/</loc>
+  <loc>http://facebook4j.github.io/</loc>
   <priority>1.0</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/en/index.html</loc>
+  <loc>http://facebook4j.github.io/en/index.html</loc>
   <priority>0.9</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/ja/index.html</loc>
+  <loc>http://facebook4j.github.io/ja/index.html</loc>
   <priority>0.9</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/en/code-examples.html</loc>
+  <loc>http://facebook4j.github.io/en/code-examples.html</loc>
   <priority>0.8</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/en/configuration.html</loc>
+  <loc>http://facebook4j.github.io/en/configuration.html</loc>
   <priority>0.8</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/en/api-support.html</loc>
+  <loc>http://facebook4j.github.io/en/api-support.html</loc>
   <priority>0.8</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/ja/code-examples.html</loc>
+  <loc>http://facebook4j.github.io/ja/code-examples.html</loc>
   <priority>0.8</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/ja/configuration.html</loc>
+  <loc>http://facebook4j.github.io/ja/configuration.html</loc>
   <priority>0.8</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
 </url>
 <url>
-  <loc>http://facebook4j.org/ja/api-support.html</loc>
+  <loc>http://facebook4j.github.io/ja/api-support.html</loc>
   <priority>0.8</priority>
   <lastmod>2013-09-05T15:55:55+09:00</lastmod>
   <changefreq>weekly</changefreq>
