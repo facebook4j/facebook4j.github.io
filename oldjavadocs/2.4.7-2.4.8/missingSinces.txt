@@ -1,0 +1,10 @@
+NO DOC BLOCK: facebook4j.Conversation Interface
+NO DOC BLOCK: facebook4j.api.ConversationMethods Interface
+NO DOC BLOCK: facebook4j.Message.Attachment Interface
+NO DOC BLOCK: facebook4j.Post.Attachment Interface
+MISSING @SINCE TAG: facebook4j.Facebook Method conversations()
+NO DOC BLOCK: facebook4j.Message Method getAttachments()
+NO DOC BLOCK: facebook4j.Post Method getAttachments()
+NO DOC BLOCK: facebook4j.Comment Method getComments()
+NO DOC BLOCK: facebook4j.Comment Method isHidden()
+NO DOC BLOCK: facebook4j.Post Method isHidden()

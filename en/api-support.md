@@ -260,6 +260,17 @@ keywords: API Support,facebook4j
 
 ----
 
+## Conversation {#conversation}
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<tbody>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/page/conversations">/PAGE_ID/conversations</a></td><td><a href="/javadoc/facebook4j/api/ConversationMethods.html#getConversations()">getConversations()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/conversation/">/CONVERSATION_ID</a></td><td><a href="/javadoc/facebook4j/api/ConversationMethods.html#getConversation(java.lang.String)">getConversation()</a></td></tr>
+<tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/conversation/messages">/CONVERSATION_ID/messages</a></td><td><a href="/javadoc/facebook4j/api/ConversationMethods.html#answerConversation(java.lang.String, java.lang.String)">answerConversation()</a></td></tr>
+</tbody></table>
+\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#conversations()">Facebook#conversations()</a>.
+
+----
+
 ## Note {#note}
 <table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
 <tbody>
