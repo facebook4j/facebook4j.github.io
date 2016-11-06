@@ -1,7 +1,7 @@
 ---
 layout: default
-title: FAQ | Facebook4J - A most easily usable Facebook API wrapper in Java
-description: Facebook4J - FAQ
+title: 问答 - 使用Java编写的非常简洁易用的Facebook图谱API工具包
+description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Facebook4j进行Facebook图谱API开发
 keywords: FAQ,facebook4j
 ---
 # 1. How do I specify API version of Facebook? {#apiversion}

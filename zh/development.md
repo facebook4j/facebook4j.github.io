@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Development | Facebook4J - A most easily usable Facebook API wrapper in Java
-description: Facebook4J - Development
+title: 开发 - 使用Java编写的非常简洁易用的Facebook图谱API工具包
+description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Facebook4j进行Facebook图谱API开发
 keywords: development,facebook4j
 ---
 # Join the development {#join-development}

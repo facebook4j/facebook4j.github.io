@@ -1,70 +1,66 @@
 ---
 layout: default
-title: Code Examples | Facebook4J - A most easily usable Facebook API wrapper in Java
-description: Code Examples of Facebook4J
-keywords: examples,facebook4j
+title: 代码示例 | Facebook4J - 使用Java编写的非常简洁易用的Facebook图谱API工具包
+description: Facebook4J代码示例
+keywords: 代码示例,facebook4j
 ---
-# Code Examples
+# 代码示例
 
-## Getting Facebook Instance {#getting_facebook_instance}
-At first it is necessary to acquire Facebook instance to use Facebook4J.  
-You can get Facebook instance in FacebookFactory.getInstance().
+## 获取Facebook实例 {#getting_facebook_instance}
+要使用Facebook4J首先需要获取Facebook实例，可以使用FacebookFactory.getInstance()获取.
 
     Facebook facebook = new FacebookFactory().getInstance();
 
-If App ID / App Secret / access token / access permission are listed in facebook4j.properties then, they are set in Facebook instance given back.  
-See [Configuration | Facebook4J - A Java library for the Facebook Graph API](/en/configuration.html) for the detail.  
-When they are not listed, it is setable later as follows:
+如果在facebook4j.properties里面配置了App Id, App Secret, Access Token, Access Permission，创建Facebook 对象的时候会自动设置这些属性，详细配置参照：[Configuration | Facebook4J - A Java library for the Facebook Graph API](/en/configuration.html)。
+如果没有配置，可以在实例化以后再按照如下方式设置:
 
     facebook.setOAuthAppId(appId, appSecret);
     facebook.setOAuthPermissions(commaSeparetedPermissions);
     facebook.setOAuthAccessToken(new AccessToken(accessToken, null));
 
-
 - - -
 
-## OAuth support {#oauth}
+## OAuth授权 {#oauth}
 
-### Getting User Access Token
+### 获取用户令牌
 
-It is possible to authenticate users using Facebook accounts with your web application.  
-An example implementation is available at [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) .
+通过Web应用程序获取用户的令牌，详情可以参照：[https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example)。
 
-### Getting App Access Token
-You can get App Access Token via Facebook.getOAuthAppAccessToken() method.
+### 获取应用令牌
+通过Facebook.getOAuthAppAccessToken()获取：
 
     facebook.getOAuthAppAccessToken();
 
-### Getting Page Access Token
-You can get Page Access Token as below:
+### 获取主页令牌
+通过如下方法获取：
 
     ResponseList<Account> accounts = facebook.getAccounts();
     Account yourPageAccount = accounts.get(0);  // if index 0 is your page account.
     String pageAccessToken = yourPageAccount.getAccessToken();
 
-### Getting Device Access Token
-With Facebook Login for Devices people can easily and safely log into your apps and services with their Facebook account on devices with limited input or display capabilities.  
-(See Facebook's Documentation: [Facebook Login for Devices](https://developers.facebook.com/docs/facebook-login/for-devices) )  
+### 获取设备令牌
+通过Facebook提供的登录方式在你的设备上面简单并且安全的获取令牌，详细参照：
+([Facebook Login for Devices](https://developers.facebook.com/docs/facebook-login/for-devices))  
 An example implementation is available at [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) .
 
-### Extending expiration of an Access Token
-(See Facebook's Documentation: [Expiration and Extension of Access Tokens](https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and-extension) )  
-You can extend Access Token's expiration as below:
+### 延长令牌的过期时间
+(详情参照: [Expiration and Extension of Access Tokens](https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and-extension) )  
+你可以按照下面的方法延长令牌的过期时间:
 
     String shortLivedToken = "your-short-lived-token";
     AccessToken extendedToken = facebook.extendTokenExpiration(shortLivedToken);
 
 - - -
 
-## Publishing a message {#post_message}
-You can publish a message via Facebook.postStatusMessage() method.
+## 发布消息 {#post_message}
+通过Facebook.postStatusMessage()方法发布一个消息
 
     facebook.postStatusMessage("Hello World from Facebook4J.");
 
 - - -
 
-## Publishing a link {#share_link}
-You can publish a link via Facebook.postFeed() method.
+## 发布链接 {#share_link}
+通过Facebook.postFeed()方法发布链接
 
     PostUpdate post = new PostUpdate(new URL("http://facebook4j.org"))
                         .picture(new URL("http://facebook4j.org/images/hero.png"))
@@ -73,92 +69,91 @@ You can publish a link via Facebook.postFeed() method.
                         .description("Facebook4J is a Java library for the Facebook Graph API.");
     facebook.postFeed(post);
 
-Facebook.postLink() method is simple way to post.
+也可以用Facebook.postLink()方法直接发布链接。
 
     facebook.postLink(new URL("http://facebook4j.org"));
     facebook.postLink(new URL("http://facebook4j.org"), "A Java library for the Facebook Graph API");
 
 - - -
 
-## Getting News Feed {#getting_newsfeed}
-Facebook.getHome() returns a List of user's latest News Feed.
+## 获取动态消息 {#getting_newsfeed}
+Facebook.getHome()方法返回用户最新的动态消息列表。
 
     ResponseList<Post> feed = facebook.getHome();
 
 - - -
 
-## Like {#post_like}
-You can like a Post, Photo, ... via Facebook.like\*\*\*\*() methods.
+## 赞 {#post_like}
+可以通过Facebook.like\*\*\*\*()方法赞照片，发布的信息等等。
 
     facebook.likePost(postId);
 
-Also, You can unlike a Post, Photo, ... via Facebook.unlike\*\*\*\*() methods.
+同样也可以使用Facebook.unlike\*\*\*\*()方法取消对各种资源的赞。
 
     facebook.unlikePost(postId);
 
 - - -
 
-## Publising a comment {#post_comment}
-You can comment a Post, Photo, ... via Facebook.comment\*\*\*\*() methods.
+## 发布评论 {#post_comment}
+可以通过Facebook.comment\*\*\*\*()方法发布一个对照片，各种发布信息的评论。
 
     facebook.commentPhoto(photoId, "It's a nice photo!");
 
 - - -
 
-## Searching {#search}
-You can search for Posts, Users, ... via Facebook.search\*\*\*\*() methods.
+## 搜索 {#search}
+可以通过Facebook.search\*\*\*\*()方法搜索用户发布的信息，图片等。
 
-### Search for public Posts
+### 搜索公开的内容
 
     ResponseList<Post> results = facebook.searchPosts("watermelon");
 
-### Search for Users
+### 搜索用户
 
     ResponseList<User> results = facebook.searchUsers("mark");
 
-### Search for Events
+### 搜索活动
 
     ResponseList<Event> results = facebook.searchEvents("conference");
 
-### Search for Groups
+### 搜索小组
 
     ResponseList<Group> results = facebook.searchGroups("programming");
 
-### Search for Places
+### 搜索地点
 
-    // Search by name
+    // 通过名字搜索
     ResponseList<Place> results = facebook.searchPlaces("coffee");
     
-    // You can narrow your search to a specific location and distance
+    // 通过给定的经纬度和距离搜索
     GeoLocation center = new GeoLocation(37.76, -122.427);
     int distance = 1000;
     ResponseList<Place> searchPlaces("coffee", center, distance);
 
-### Search for Checkins
+### 搜索签到
 
-    // you or your friend's latest checkins, or checkins where you or your friends have been tagged
+    // 搜索自己或者朋友的最新签到记录，或者是签到标记
     ResponseList<Checkin> results = facebook.searchCheckins();
     
 
-### Search for Locations
+### 搜索位置
 
-    // To search for objects near a geographical location
+    // 基于地理坐标搜索
     GeoLocation center = new GeoLocation(37.76, -122.427);
     int distance = 1000;
     ResponseList<Location> searchLocations(center, distance);
     
-    // To search for objects at a particular place
+    // 基于特定的地点搜索
     String placeId = "166793820034304";
     ResponseList<Location> locations = facebookBestFriend1.searchLocations(placeId);
 
 
 - - -
 
-## Executing FQL {#execute_fql}
-You can execute FQL via Facebook.executeFQL() method.  
-Also you can execute multiple FQL in one call via Facebook.executeMultiFQL() method.
+## 执行 FQL {#execute_fql}
+可以通过Facebook.executeFQL()方法执行FQL语句，同时可以通过Facebook.executeMultiFQL()方法批量的执行FQL语句
 
-    // Single FQL
+    // 一条FQL
     String query = "SELECT uid2 FROM friend WHERE uid1=me()";
     JSONArray jsonArray = facebook.executeFQL(query);
     for (int i = 0; i < jsonArray.length(); i++) {
@@ -166,7 +161,7 @@ Also you can execute multiple FQL in one call via Facebook.executeMultiFQL() met
         System.out.println(jsonObject.get("uid2"));
     }
 
-    // Multiple FQL
+    // 多条FQL
     Map<String, String> queries = new HashMap<String, String>();
     queries.put("all friends", "SELECT uid2 FROM friend WHERE uid1=me()");
     queries.put("my name", "SELECT name FROM user WHERE uid=me()");
@@ -182,10 +177,10 @@ Also you can execute multiple FQL in one call via Facebook.executeMultiFQL() met
 
 - - -
 
-## Executing Batch Requests {#execute_batch}
-You can execute Batch Requests via Facebook.executeBatch() method.  
+## 执行批量请求 {#execute_batch}
+可以通过Facebook.executeBatch()方法执行批量请求 
 
-    // Executing "me" and "me/friends?limit=50" endpoints
+    // 同时访问 "me" 和 "me/friends?limit=50" 两个接口
     BatchRequests<BatchRequest> batch = new BatchRequests<BatchRequest>();
     batch.add(new BatchRequest(RequestMethod.GET, "me"));
     batch.add(new BatchRequest(RequestMethod.GET, "me/friends?limit=50"));
@@ -194,23 +189,22 @@ You can execute Batch Requests via Facebook.executeBatch() method.
     BatchResponse result1 = results.get(0);
     BatchResponse result2 = results.get(1);
 
-    // You can get http status code or headers
+    // 可以获取Status和Header
     int statusCode1 = result1.getStatusCode();
     String contentType = result1.getResponseHeader("Content-Type");
 
-    // You can get body content via as****() method
+    // 可以通过as****()方法获取Body
     String jsonString = result1.asString();
     JSONObject jsonObject = result1.asJSONObject();
     ResponseList<JSONObject> responseList = result2.asResponseList();
 
-    // You can map json to java object using DataObjectFactory#create****()
+    // 可以通过DataObjectFactory#create****()方法把返回的JSON转换为Java对象
     User user = DataObjectFactory.createUser(jsonString);
     Friend friend1 = DataObjectFactory.createFriend(responseList.get(0).toString());
     Friend friend2 = DataObjectFactory.createFriend(responseList.get(1).toString());
     :
 
-
-You can attach a binary data to batch request as follows:
+在请求过程中，也可以通过attachedFile方法添加一个二进制文件
 
     BatchRequests<BatchRequest> batch = new BatchRequests<BatchRequest>();
     Media file = new Media(new File("...image.png"));
@@ -222,8 +216,8 @@ You can attach a binary data to batch request as follows:
 
 - - -
 
-## Executing Raw API (setting the endpoint on your own) {#execute_raw}
-You can execute the API endpoint that you want to run via Facebook.call****() method.
+## 执行API请求 (可以自定义API地址) {#execute_raw}
+可以通过Facebook.call****()方法请求自定义的API地址
 
     // GET
     RawAPIResponse res = facebook.callGetAPI("me");
@@ -241,45 +235,44 @@ You can execute the API endpoint that you want to run via Facebook.call****() me
       System.out.println(res.asBoolean());
     }
 
-You can execute the API endpoint that is not supported by Facebook4J via Facebook.call****() method.
-
+可以通过Facebook.call****()方法调用Facebook4J还不支持的API
 
 - - -
 
-## Reading options {#reading}
-You can set various reading options to the method that Reading object includes in arguments.
+## 读取数据 {#reading}
+可以在调用任何方法的时候传递Reading对象。
 
-### Selecting specific fields
-You can choose the fields you want returned via Reading.fields("fieldName1,fieldName2,...") .
+### 获取指定字段
+可以通过Reading.fields("fieldName1,fieldName2,...")设置指定的字段
 
-    // Getting user's email address only
+    // 仅获取email字段
     User user = facebook1.getUser(id1.getId(), new Reading().fields("email"));
 
 ### limit/offset
 
-    // Getting 1st-10th results
+    // 获取1-10列表
     ResponseList<Post> results = facebook.searchPosts("watermelon", new Reading().limit(10));
     
-    // Getting 11th-20th results
+    // 获取11-20列表
     ResponseList<Post> results = facebook.searchPosts("watermelon", new Reading().limit(10).offset(10));
 
 ### until/since
-until/since values can be a unix timestamp or any date accepted by [PHP's strtotime](http://php.net/manual/en/function.strtotime.php) format.
+until/since可以是时间戳或者是任何的时间格式[PHP's strtotime](http://php.net/manual/en/function.strtotime.php).
 
     ResponseList<Post> results = facebook.searchPosts("watermelon", new Reading().until("yesterday"));
 
-
 - - -
 
-## Pagination {#paging}
-You can get next/previous page with Paging object in results via Facebook.fetchNext() / Facebook.fetchPrevious() methods.
+## 分页 {#paging}
+可以通过Facebook.fetchNext()或Facebook.fetchPrevious()方法获取上一页或者下一页
+You can get next/previous page with Paging object in results via Facebook.fetchNext() / Facebook.fetchPrevious()
 
     ResponseList<Option> page1 = facebook.getQuestionOptions(questionId);
     
-    // Getting Next page
+    // 获取下一页
     Paging<Option> paging1 = page1.getPaging();
     ResponseList<Option> page2 = facebook.fetchNext(paging1);
     
-    // Getting Previous page
+    // 获取上一页
     Paging<Option> paging2 = page2.getPaging();
     page1 = facebook.fetchPrevious(paging2);

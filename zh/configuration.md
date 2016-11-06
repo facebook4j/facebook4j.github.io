@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Configuration | Facebook4J - A most easily usable Facebook API wrapper in Java
-description: Configuration for Facebook4J
-keywords: configuration,facebook4j
+title: 配置 - 使用Java编写的非常简洁易用的Facebook图谱API工具包
+description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Facebook4j进行Facebook图谱API开发
 ---
 <div class="hero-unit">
   How to specify the API version of Facebook, please see <a href="/en/faq.html#apiversion">here</a>.
