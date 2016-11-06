@@ -4,7 +4,7 @@ title: 配置 - 使用Java编写的非常简洁易用的Facebook图谱API工具�
 description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Facebook4j进行Facebook图谱API开发
 ---
 <div class="hero-unit">
-  定义Facebook的API版本，可以参考文档 <a href="/en/faq.html#apiversion">查看</a>.
+  修改Facebook的API版本，可以参考文档 <a href="/en/faq.html#apiversion">查看</a>.
 </div>
 
 # 通用配置 {#generic_properties}

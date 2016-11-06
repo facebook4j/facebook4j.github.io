@@ -6,25 +6,25 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 # API Support matrix {#api_support_matrix}
 
 ## Account {#account}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/accounts</a><br />(see: Connections - accounts)</td><td><a href="/javadoc/facebook4j/api/AccountMethods.html#getAccounts()">getAccounts()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#accounts()">Facebook#accounts()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#accounts()">Facebook#accounts()</a>.
 
 ----
 
 ## Activity {#activity}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/activities</a><br />(see: Connections - activities)</td><td><a href="/javadoc/facebook4j/api/ActivityMethods.html#getActivities()">getActivities()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#activities()">Facebook#activities()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#activities()">Facebook#activities()</a>.
 
 ----
 
 ## Album {#album}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/album/">/ALBUM_ID</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbum(java.lang.String)">getAlbum()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/album/">/ALBUM_ID/photos</a><br />(see: Connections - photos)</td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbumPhotos(java.lang.String)">getAlbumPhotos()</a></td></tr>
@@ -40,12 +40,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#albums">/USER_ID/albums</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#createAlbum(facebook4j.AlbumCreate)">createAlbum()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/post/reactions">/ALBUM_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/AlbumMethods.html#getAlbumReactions(java.lang.String)">getAlbumReactions()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#albums()">Facebook#albums()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#albums()">Facebook#albums()</a>.
 
 ----
 
 ## Checkin {#checkin}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/checkin/">/CHECKIN_ID</a></td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#getCheckin(java.lang.String)">getCheckin()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/checkin/">/CHECKIN_ID/comments</a><br />(see: Connections - comments)</td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#getCheckinComments(java.lang.String)">getCheckinComments()</a></td></tr>
@@ -57,12 +57,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/checkins</a><br />(see: Connections - checkins)</td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#getCheckins()">getCheckins()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#checkins">/USER_ID/checkins</a></td><td><a href="/javadoc/facebook4j/api/CheckinMethods.html#checkin(facebook4j.CheckinCreate)">checkin()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#checkins()">Facebook#checkins()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#checkins()">Facebook#checkins()</a>.
 
 ----
 
 ## Comment {#comment}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/">/COMMENT_ID</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#getComment(java.lang.String)">getComment()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/">/COMMENT_ID/comments</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#getCommentReplies(java.lang.String)">getCommentReplies()</a></td></tr>
@@ -71,23 +71,23 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/#likes">/COMMENT_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#likeComment(java.lang.String)">likeComment()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/Comment/#likes">/COMMENT_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/CommentMethods.html#unlikeComment(java.lang.String)">unlikeComment()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#comments()">Facebook#comments()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#comments()">Facebook#comments()</a>.
 
 ----
 
 ## Domain {#domain}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/domain/">/DOMAIN_ID</a></td><td><a href="/javadoc/facebook4j/api/DomainMethods.html#getDomain(java.lang.String)">getDomain()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/domain/">?domain=DOMAIN_NAME</a></td><td><a href="/javadoc/facebook4j/api/DomainMethods.html#getDomainByName(java.lang.String)">getDomainByName()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/domain/">?domains=DOMAIN_NAME1,...</a></td><td><a href="/javadoc/facebook4j/api/DomainMethods.html#getDomainsByName(java.lang.String...)">getDomainsByName()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#domains()">Facebook#domains()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#domains()">Facebook#domains()</a>.
 
 ----
 
 ## Event {#event}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/">/EVENT_ID</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#getEvent(java.lang.String)">getEvent()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#events">/EVENT_ID</a><br />(see: Edit section)</td><td><a href="/javadoc/facebook4j/api/EventMethods.html#editEvent(java.lang.String,%20facebook4j.EventUpdate)">editEvent()</a></td></tr>
@@ -124,21 +124,21 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#events">/USER_ID/events</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#createEvent(facebook4j.EventUpdate)">createEvent()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#events">/PAGE_ID/events</a></td><td><a href="/javadoc/facebook4j/api/EventMethods.html#createEvent(facebook4j.EventUpdate)">createEvent()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#events()">Facebook#events()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#events()">Facebook#events()</a>.
 
 ----
 
 ## Family {#family}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/family</a><br />(see: Connections - family)</td><td><a href="/javadoc/facebook4j/api/FamilyMethods.html#getFamily()">getFamily()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#family()">Facebook#family()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#family()">Facebook#family()</a>.
 
 ----
 
 ## Favorite {#favorite}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/books</a><br />(see: Connections - books)</td><td><a href="/javadoc/facebook4j/api/FavoriteMethods.html#getBooks()">getBooks()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/games</a><br />(see: Connections - games)</td><td><a href="/javadoc/facebook4j/api/FavoriteMethods.html#getGames()">getGames()</a></td></tr>
@@ -147,12 +147,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/television</a><br />(see: Connections - television)</td><td><a href="/javadoc/facebook4j/api/FavoriteMethods.html#getTelevision()">getTelevision()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/interests</a><br />(see: Connections - interests)</td><td><a href="/javadoc/facebook4j/api/FavoriteMethods.html#getInterests()">getInterests()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#favorites()">Facebook#favorites()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#favorites()">Facebook#favorites()</a>.
 
 ----
 
 ## Friend {#friend}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/FriendList/">/FRIENDLIST_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getFriendlist(java.lang.String)">getFriendlist()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/FriendList/">/FRIENDLIST_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#deleteFriendlist(java.lang.String)">deleteFriendlist()</a></td></tr>
@@ -167,12 +167,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#mutualfriends">/USER_ID/mutualfriends/FRIEND_ID</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getMutualFriends(java.lang.String)">getMutualFriends()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/taggable_friends/">/USER_ID/taggable_friends</a></td><td><a href="/javadoc/facebook4j/api/FriendMethods.html#getTaggableFriends()">getTaggableFriends()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#friends()">Facebook#friends()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#friends()">Facebook#friends()</a>.
 
 ----
 
 ## Game {#game}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#achievements">/USER_ID/achievements</a></td><td><a href="/javadoc/facebook4j/api/GameMethods.html#getAchievements()">getAchievements()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#achievements">/USER_ID/achievements</a></td><td><a href="/javadoc/facebook4j/api/GameMethods.html#postAchievement(java.lang.String,%20java.net.URL)">postAchievement()</a></td></tr>
@@ -181,12 +181,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#scores">/USER_ID/scores</a></td><td><a href="/javadoc/facebook4j/api/GameMethods.html#postScore(int)">postScore()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#scores">/USER_ID/scores</a></td><td><a href="/javadoc/facebook4j/api/GameMethods.html#deleteScore()">deleteScore()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#games()">Facebook#games()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#games()">Facebook#games()</a>.
 
 ----
 
 ## Group {#group}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/group/">/GROUP_ID</a></td><td><a href="/javadoc/facebook4j/api/GroupMethods.html#getGroup(java.lang.String)">getGroup()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/group/">/GROUP_ID/feed</a><br />(see: Connections - feed)</td><td><a href="/javadoc/facebook4j/api/GroupMethods.html#getGroupFeed(java.lang.String)">getGroupFeed()</a></td></tr>
@@ -198,30 +198,30 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/group/">/GROUP_ID/docs</a><br />(see: Connections - docs)</td><td><a href="/javadoc/facebook4j/api/GroupMethods.html#getGroupDocs(java.lang.String,%20facebook4j.Reading)">getGroupDocs()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/groups</a><br />(see: Connections - groups)</td><td><a href="/javadoc/facebook4j/api/GroupMethods.html#getGroups()">getGroups()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#groups()">Facebook#groups()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#groups()">Facebook#groups()</a>.
 
 ----
 
 ## Insight {#insight}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/insights/">/OBJECT_ID/insights/METRIC</a></td><td><a href="/javadoc/facebook4j/api/InsightMethods.html#getInsights(java.lang.String,%20java.lang.String)">getInsights()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#insights()">Facebook#insights()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#insights()">Facebook#insights()</a>.
 
 ----
 
 ## Like {#like}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#likes">/USER_ID/likes</a></td><td><a href="/javadoc/facebook4j/api/LikeMethods.html#getUserLikes()">getUserLikes()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#likes()">Facebook#likes()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#likes()">Facebook#likes()</a>.
 
 ----
 
 ## Link {#link}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/link/">/LINK_ID</a></td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLink(java.lang.String)">getLink()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/link/">/LINK_ID/comments</a><br />(see: Connections - comments)</td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinkComments(java.lang.String)">getLinkComments()</a></td></tr>
@@ -233,34 +233,34 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/links</a><br />(see: Connections - links)</td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinks()">getLinks()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/event/#links">/EVENT_ID/links</a><br /></td><td><a href="/javadoc/facebook4j/api/LinkMethods.html#getLinks()">getLinks()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#links()">Facebook#links()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#links()">Facebook#links()</a>.
 
 ----
 
 ## Location {#location}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/locations</a><br />(see: Connections - locations)</td><td><a href="/javadoc/facebook4j/api/LocationMethods.html#getLocations()">getLocations()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/tagged_places/">/USER_ID/tagged_places</a></td><td><a href="/javadoc/facebook4j/api/LocationMethods.html#getTaggedPlaces()">getTaggedPlaces()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#locations()">Facebook#locations()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#locations()">Facebook#locations()</a>.
 
 ----
 
 ## Message {#message}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/message/">/MESSAGE_ID</a></td><td><a href="/javadoc/facebook4j/api/MessageMethods.html#getMessage(java.lang.String)">getMessage()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/inbox</a><br />(see: Connections - inbox)</td><td><a href="/javadoc/facebook4j/api/MessageMethods.html#getInbox()">getInbox()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/outbox</a><br />(see: Connections - outbox)</td><td><a href="/javadoc/facebook4j/api/MessageMethods.html#getOutbox()">getOutbox()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/updates</a><br />(see: Connections - updates)</td><td><a href="/javadoc/facebook4j/api/MessageMethods.html#getUpdates()">getUpdates()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#messages()">Facebook#messages()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#messages()">Facebook#messages()</a>.
 
 ----
 
 ## Note {#note}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/note/">/NOTE_ID</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#getNote(java.lang.String)">getNote()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/note/">/NOTE_ID/comments</a><br />(see: Connections - comments)</td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#getNoteComments(java.lang.String)">getNoteComments()</a></td></tr>
@@ -273,33 +273,33 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#notes">/USER_ID/notes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#createNote(java.lang.String,%20java.lang.String)">createNote()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#notes">/PAGE_ID/notes</a></td><td><a href="/javadoc/facebook4j/api/NoteMethods.html#createNote(java.lang.String,%20java.lang.String)">createNote()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#notes()">Facebook#notes()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#notes()">Facebook#notes()</a>.
 
 ----
 
 ## Notification {#notification}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/blog/post/552/?ref=nf">/USER_ID/notifications</a><br />(see: 'Reading and Managing Notifications' section)</td><td><a href="/javadoc/facebook4j/api/NotificationMethods.html#getNotifications()">getNotifications()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/blog/post/552/?ref=nf">/NOTIFICATION_ID</a><br />(see: 'Reading and Managing Notifications' section)</td><td><a href="/javadoc/facebook4j/api/NotificationMethods.html#markNotificationAsRead(java.lang.String)">markNotificationAsRead()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#notifications()">Facebook#notifications()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#notifications()">Facebook#notifications()</a>.
 
 ----
 
 ## Permission {#permission}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/permissions/">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#getPermissions()">getPermissions()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/permissions/">/USER_ID/permissions/PERMISSION_NAME</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#deletePermission(java.lang.String)">deletePermission()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/user/permissions/#Deleting">/USER_ID/permissions</a></td><td><a href="/javadoc/facebook4j/api/PermissionMethods.html#deleteAllPermissions()">deleteAllPermissions()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#permissions()">Facebook#permissions()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#permissions()">Facebook#permissions()</a>.
 
 ----
 
 ## Page {#page}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID</a></td><td><a href="">getPage()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID</a></td><td><a href="">updatePageBasicAttributes()</a></td></tr>
@@ -330,12 +330,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/PAGE_ID/offers</a></td><td><a href="">deleteOffer()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/">/POST_ID</a></td><td><a href="">displayPagePost()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#pages()">Facebook#pages()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#pages()">Facebook#pages()</a>.
 
 ----
 
 ## Photo {#photo}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/photo/">/PHOTO_ID</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhoto(java.lang.String)">getPhoto()</a></td></tr>
 <tr><td>DELETE</td><td>/PHOTO_ID</td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#deletePhoto(java.lang.String)">deletePhoto()</a></td></tr>
@@ -354,21 +354,21 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/photo/reactions">/PHOTO_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhotoReactions(java.lang.String)">getPhotoReactions()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/photo/sharedposts/">/PHOTO_ID/sharedposts</a></td><td><a href="/javadoc/facebook4j/api/PhotoMethods.html#getPhotoSharedposts(java.lang.String)">getPhotoSharedposts()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#photos()">Facebook#photos()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#photos()">Facebook#photos()</a>.
 
 ----
 
 ## Poke {#poke}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/pokes</a><br />(see: Connections - pokes)</td><td><a href="/javadoc/facebook4j/api/PokeMethods.html#getPokes()">getPokes()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#pokes()">Facebook#pokes()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#pokes()">Facebook#pokes()</a>.
 
 ----
 
 ## Post {#post}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/post/">/POST_ID</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPost(java.lang.String)">getPost()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/post/">/POST_ID</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#deletePost(java.lang.String)">deletePost()</a></td></tr>
@@ -394,12 +394,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/post/reactions">/POST_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getPostReactions(java.lang.String)">getPostReactions()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/v2.6/object/sharedposts">/POST_ID/sharedposts</a></td><td><a href="/javadoc/facebook4j/api/PostMethods.html#getSharedPosts(java.lang.String)">getSharedPosts()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#posts()">Facebook#posts()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#posts()">Facebook#posts()</a>.
 
 ----
 
 ## Question {#question}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/question/">/QUESTION_ID</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#getQuestion(java.lang.String)">getQuestion()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/reference/api/user/#questions">/QUESTION_ID</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#deleteQuestion(java.lang.String)">deleteQuestion()</a></td></tr>
@@ -410,22 +410,22 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#questions">/PAGE_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#getQuestions()">getQuestions()</a></td></tr>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/reference/api/page/#questions">/PAGE_ID/questions</a></td><td><a href="/javadoc/facebook4j/api/QuestionMethods.html#createQuestion(java.lang.String)">createQuestion()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#questions()">Facebook#questions()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#questions()">Facebook#questions()</a>.
 
 ----
 
 ## Subscribe {#subscribe}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/subscribedto</a><br />(see: Connections - subscribedto)</td><td><a href="/javadoc/facebook4j/api/SubscribeMethods.html#getSubscribedto()">getSubscribedto()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID/subscribers</a><br />(see: Connections - subscribers)</td><td><a href="/javadoc/facebook4j/api/SubscribeMethods.html#getSubscribers()">getSubscribers()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#subscribes()">Facebook#subscribes()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#subscribes()">Facebook#subscribes()</a>.
 
 ----
 
 ## User {#user}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/me</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getMe()">getMe()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/user/">/USER_ID</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getUser(java.lang.String)">getUser()</a></td></tr>
@@ -433,12 +433,12 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/using-pictures/#ssl">/USER_ID/picture</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getSSLPictureURL()">getSSLPictureURL()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/selecting-results/">?ids=name1,name2...</a></td><td><a href="/javadoc/facebook4j/api/UserMethods.html#getUsers(java.lang.String...)">getUsers()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#users()">Facebook#users()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#users()">Facebook#users()</a>.
 
 ----
 
 ## Video {#video}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/video/">/VIDEO_ID</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideo(java.lang.String)">getVideo()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/video/">/VIDEO_ID/likes</a><br />(see: Connections - likes)</td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideoLikes(java.lang.String)">getVideoLikes()</a></td></tr>
@@ -454,33 +454,33 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/video/reactions">/VIDEO_ID/reactions</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideoReactions(java.lang.String)">getPostReactions()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/graph-api/reference/video/sharedposts/">/VIDEO_ID/sharedposts</a></td><td><a href="/javadoc/facebook4j/api/VideoMethods.html#getVideoSharedposts(java.lang.String)">getVideoSharedposts()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#videos()">Facebook#videos()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#videos()">Facebook#videos()</a>.
 
 ----
 
 ## TestUser {#testuser}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/test_users/">/APP_ID/accounts/test-users?...</a><br />(see: Creating section)</td><td><a href="/javadoc/facebook4j/api/TestUserMethods.html#createTestUser(java.lang.String)">createTestUser()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/test_users/">/APP_ID/accounts/test-users</a><br />(see: Accessing section)</td><td><a href="/javadoc/facebook4j/api/TestUserMethods.html#getTestUsers(java.lang.String)">getTestUsers()</a></td></tr>
 <tr><td>DELETE</td><td><a href="https://developers.facebook.com/docs/test_users/">/TEST_USER_ID</a><br />(see: Deleting section)</td><td><a href="/javadoc/facebook4j/api/TestUserMethods.html#deleteTestUser(java.lang.String)">deleteTestUser()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#testUsers()">Facebook#testUsers()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#testUsers()">Facebook#testUsers()</a>.
 
 ----
 
 ## FQL {#fql}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/technical-guides/fql/">/fql?q=FQL</a></td><td><a href="/javadoc/facebook4j/api/FQLMethods.html#executeFQL(java.lang.String)">executeFQL()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/technical-guides/fql/#multi">/fql?q={FQL_NAME1:FQL1,...}</a></td><td><a href="/javadoc/facebook4j/api/FQLMethods.html#executeMultiFQL(java.util.Map)">executeMultiFQL()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#fql()">Facebook#fql()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#fql()">Facebook#fql()</a>.
 
 ----
 
 ## Search {#search}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=post</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchPosts(java.lang.String)">searchPosts()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY&type=user</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchUsers(java.lang.String)">searchUsers()</a></td></tr>
@@ -494,13 +494,13 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?type=location&place=xxx</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#searchLocations(java.lang.String)">searchLocations()</a></td></tr>
 <tr><td>GET</td><td><a href="https://developers.facebook.com/docs/reference/api/search/">/search?q=QUERY</a></td><td><a href="/javadoc/facebook4j/api/SearchMethods.html#search(java.lang.String)">search()</a></td></tr>
 </tbody></table>
-\* You can narrow API methods down to these via <a href="/javadoc/facebook4j/Facebook.html#search()">Facebook#search()</a>.
+\* 点击访问API <a href="/javadoc/facebook4j/Facebook.html#search()">Facebook#search()</a>.
 
 ----
 
 
 ## Batch {#batch}
-<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">Endpoint</th><th>Facebook4J Method</th></tr></thead>
+<table class="bordered-table zebra-striped" style="width: auto;"><thead><tr><th style="width: 180px;" colspan="2">地址</th><th>Facebook4J方法</th></tr></thead>
 <tbody>
 <tr><td>POST</td><td><a href="https://developers.facebook.com/docs/graph-api/making-multiple-requests/">?batch=[{...}]</a></td><td><a href="/javadoc/facebook4j/api/BatchRequestsMethods.html#executeBatch(facebook4j.BatchRequests)">executeBatch()</a></td></tr>
 </tbody></table>
