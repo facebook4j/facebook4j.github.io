@@ -151,4 +151,4 @@ for the detail.</td><td>null</td></tr>
 - - -
 
 # 日志配置 {#logger_configuration}
-Facebook4J默认是标准输出，如果SLF4J, Commons-Logging, Log4J 在环境变量里面，会选择其中的日志工具。可以通过Dfacebook4j.loggerFactory=facebook4j.internal.logging.NullLoggerFactory禁用默认的日志输出。
+Facebook4J默认配置的是标准输出，如果SLF4J, Commons-Logging, Log4J 在环境变量里面，会选择其中一个作为日志工具。可以通过-Dfacebook4j.loggerFactory=facebook4j.internal.logging.NullLoggerFactory禁用默认的日志输出。

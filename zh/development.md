@@ -14,21 +14,21 @@ keywords: development,facebook4j
 
 3. 直接修复，创建一个新的分支，但是需要保证如下：
 * 代码需要符合[代码规范](#coding-convention)
-* 修改的地方需要有JUnit测试
-* 提交的分支需要有想起的Git的提交日志
-* 新创建的需要有@author 标签和[证书条款](/en/index.html#license)
+* 修改的代码需要有JUnit测试
+* 提交的分支需要有详细的Git的提交日志
+* 新创建的文件需要有@author 标签和[证书条款](/en/index.html#license)
 
 4. 创建Pull Request到Github[仓库](http://github.com/roundrop)
 
 5. Pull Request被合并以后需要关闭Jira上面的提交记录。
 
 # 代码规范 {#coding-convention}
-代码尽可能的符合代码规范[Code Conventions for the Java(TM) Programming Language](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html)和四个空格缩进。Facebook4J兼容1.5所以一些JAVA6+ API不支持。
+代码尽可能的符合[代码规范](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html)和四个空格缩进。Facebook4J为了兼容1.5所以一些JAVA6+ API不支持。
 
 # 问题管理 {#issue-management}
 我们使用[JIRA](https://roundrop.atlassian.net/browse/FFJ)来记录我们的问题和Bug。  
 [![JIRA](/images/jira.png)](https://roundrop.atlassian.net/browse/FFJ)  
-运行在[Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/overview)上面。
+JIRA运行在[Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/overview)上面。
 [JIRA](https://roundrop.atlassian.net/browse/FFJ)为开源的Facebook4J.org提供了免费的版本。
 
 # 持续集成 {#ci}

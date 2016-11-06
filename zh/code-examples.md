@@ -41,7 +41,7 @@ keywords: 代码示例,facebook4j
 ### 获取设备令牌
 通过Facebook提供的登录方式在你的设备上面简单并且安全的获取令牌，详细参照：
 ([Facebook Login for Devices](https://developers.facebook.com/docs/facebook-login/for-devices))  
-An example implementation is available at [https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) .
+一个可用的示例[https://github.com/roundrop/facebook4j-oauth-example](https://github.com/roundrop/facebook4j-oauth-example) .
 
 ### 延长令牌的过期时间
 (详情参照: [Expiration and Extension of Access Tokens](https://developers.facebook.com/docs/facebook-login/access-tokens/expiration-and-extension) )  

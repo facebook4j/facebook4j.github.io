@@ -32,8 +32,7 @@ Java 5 及更高版本
 
 # 使用方法 {#how_to_use}
 只需要把facebook4j-core-2.4.7.jar配置到应用的环境变量。
-如果你已经比较熟悉Java开发，可以直接从[JavaDoc](/javadoc/index.html "JavaDoc")开始。最好是从[facebook4j.Facebook](/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") 开始看。
-代码示例：[Code Examples | Facebook4J - A Java library for the Facebook Graph API](/zh/code-examples.html)
+如果你已经比较熟悉Java开发，可以直接查看[JAVA文档](/javadoc/index.html "JavaDoc")。最好是从[facebook4j.Facebook](/javadoc/facebook4j/Facebook.html "facebook4j.Facebook") 开始看。[代码示例](/zh/code-examples.html)
 
 # 源码 {#source_code}
 
