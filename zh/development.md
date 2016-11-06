@@ -4,44 +4,37 @@ title: 开发 - 使用Java编写的非常简洁易用的Facebook图谱API工具�
 description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Facebook4j进行Facebook图谱API开发
 keywords: development,facebook4j
 ---
-# Join the development {#join-development}
+# 参与开发 {#join-development}
 
-To contribute your code, follow the instructions below.
+根据如下说明参与开发，提交你的代码.
 
-1. Report to the mailing list
-Report the bug, or the feature request to [the mailing list](http://groups.google.com/group/facebook4j) . If you are sure that the issue is not a known or a duplicated one, you can skip this step and go to step 2.
+1. 可以通过邮件提交问题[邮件列表](http://groups.google.com/group/facebook4j)，如果你不清楚是否这个问题已经提交，可以跳过这一步直接走第二步。
 
-2. Submit the issue
-Submit the issue to [JIRA](https://roundrop.atlassian.net/browse/FFJ) .
+2. 通过JIRA提交问题，把问题提交到[JIRA](https://roundrop.atlassian.net/browse/FFJ)。
 
-3. Fix it
-Fix the source code accordingly in a branch named FFJ-XXX. Make sure that:
-* The code meets the [coding convention](#coding-convention)
-* JUnit test case is included in the change
-* The issue# (FFJ-***) is included in the commit log
-* newly created files contain @author tag and [the terms of license](/en/index.html#license)
+3. 直接修复，创建一个新的分支，但是需要保证如下：
+* 代码需要符合[代码规范](#coding-convention)
+* 修改的地方需要有JUnit测试
+* 提交的分支需要有想起的Git的提交日志
+* 新创建的需要有@author 标签和[证书条款](/en/index.html#license)
 
-4. Send a pull request
-Send a pull request to [the upstream repository](http://github.com/roundrop)
+4. 创建Pull Request到Github[仓库](http://github.com/roundrop)
 
-5. Merge and close
-The Jira issue will be closed once the pull request was merged and all test cases were passed.
+5. Pull Request被合并以后需要关闭Jira上面的提交记录。
 
-# Coding convention {#coding-convention}
-Source code need to respect [Code Conventions for the Java(TM) Programming Language](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html) as much as possible. And indentation is four spaces.  
-Use of APIs introduced at Java 6+ is not allowed since Facebook4J is desigined to be compatible with Java 5.
+# 代码规范 {#coding-convention}
+代码尽可能的符合代码规范[Code Conventions for the Java(TM) Programming Language](http://www.oracle.com/technetwork/java/codeconvtoc-136057.html)和四个空格缩进。Facebook4J兼容1.5所以一些JAVA6+ API不支持。
 
-# Issue management {#issue-management}
-Atlassian supports our efforts by contributing their bug tracking and issue tracking application, [JIRA](https://roundrop.atlassian.net/browse/FFJ) , to our project.  
+# 问题管理 {#issue-management}
+我们使用[JIRA](https://roundrop.atlassian.net/browse/FFJ)来记录我们的问题和Bug。  
 [![JIRA](/images/jira.png)](https://roundrop.atlassian.net/browse/FFJ)  
-Running on [Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/overview) .  
-Atlassian is offering an Open Source Project License of Atlassian OnDemand to Facebook4J.org.
+运行在[Atlassian OnDemand](https://www.atlassian.com/en/software/ondemand/overview)上面。
+[JIRA](https://roundrop.atlassian.net/browse/FFJ)为开源的Facebook4J.org提供了免费的版本。
 
-# Continuous Integration {#ci}
-Facebook4J is built continuously by [Travis CI](https://travis-ci.org/roundrop/facebook4j/builds) .  
-And get the great coverage reporting via [Coveralls](https://coveralls.io/r/roundrop/facebook4j).  
+# 持续集成 {#ci}
+Facebook4J使用[Travis CI](https://travis-ci.org/roundrop/facebook4j/builds)做持续集成，通过[Coveralls](https://coveralls.io/r/roundrop/facebook4j)计算测试覆盖率。  
 [![Travis CI](/images/travis-logo.jpg)](https://travis-ci.org/)
 [![Coveralls](/images/coveralls-logo.jpg)](https://coveralls.io/)  
 
-# IDE {#ide}
-Facebook4J is a Mavenized project and you can use any IDE to play with Facebook4J. JetBrains is offering an Open Source Project License of IntelliJ IDEA to Facebook4J.org. Anyone who has contributed a patch can get access to the license file for improving Facebook4J. Please ask roundrop@gmail.com for more information.
+# 集成开发工具 {#ide}
+Facebook4J是一个Maven工程，可以使用任何IDE导入，JetBrains为Facebook4J.org提供开源的许可证。任何贡献者都可以获得这个许可证继续共享Facebook4J，如果有需要请联系roundrop@gmail.com。
