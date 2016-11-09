@@ -43,5 +43,3 @@ And get the great coverage reporting via [Coveralls](https://coveralls.io/r/roun
 [![Travis CI](/images/travis-logo.jpg)](https://travis-ci.org/)
 [![Coveralls](/images/coveralls-logo.jpg)](https://coveralls.io/)  
 
-# IDE {#ide}
-Facebook4J is a Mavenized project and you can use any IDE to play with Facebook4J. JetBrains is offering an Open Source Project License of IntelliJ IDEA to Facebook4J.org. Anyone who has contributed a patch can get access to the license file for improving Facebook4J. Please ask roundrop@gmail.com for more information.

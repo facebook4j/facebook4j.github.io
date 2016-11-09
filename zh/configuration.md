@@ -4,7 +4,7 @@ title: 配置 - 使用Java编写的非常简洁易用的Facebook图谱API工具�
 description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Facebook4j进行Facebook图谱API开发
 ---
 <div class="hero-unit">
-  修改Facebook的API版本，可以参考文档 <a href="/en/faq.html#apiversion">查看</a>.
+  修改Facebook的API版本，可以参考文档 <a href="/zh/faq.html#apiversion">查看</a>.
 </div>
 
 # 通用配置 {#generic_properties}
@@ -43,7 +43,7 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
         -Dfacebook4j.oauth.appSecret=******************************************
         -Dfacebook4j.oauth.accessToken=**************************************************
         -Dfacebook4j.oauth.permissions=email,publish_stream,...
-        -cp facebook4j-core-2.4.7.jar:yourApp.jar yourpackage.Main
+        -cp facebook4j-core-2.4.8.jar:yourApp.jar yourpackage.Main
 
 - - -
 
@@ -56,7 +56,7 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
     $ export facebook4j.oauth.appSecret=******************************************
     $ export facebook4j.oauth.accessToken=**************************************************
     $ export facebook4j.oauth.permissions=email,publish_stream,...
-    $ java -cp facebook4j-core-2.4.7.jar:yourApp.jar yourpackage.Main
+    $ java -cp facebook4j-core-2.4.8.jar:yourApp.jar yourpackage.Main
 
 在Heroku上面:
 

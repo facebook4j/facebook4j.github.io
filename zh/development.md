@@ -36,5 +36,3 @@ Facebook4J使用[Travis CI](https://travis-ci.org/roundrop/facebook4j/builds)做
 [![Travis CI](/images/travis-logo.jpg)](https://travis-ci.org/)
 [![Coveralls](/images/coveralls-logo.jpg)](https://coveralls.io/)  
 
-# 集成开发工具 {#ide}
-Facebook4J是一个Maven工程，可以使用任何IDE导入，JetBrains为Facebook4J.org提供开源的许可证。任何贡献者都可以获得这个许可证继续共享Facebook4J，如果有需要请联系roundrop@gmail.com。
