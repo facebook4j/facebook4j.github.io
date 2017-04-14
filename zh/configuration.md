@@ -43,7 +43,7 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
         -Dfacebook4j.oauth.appSecret=******************************************
         -Dfacebook4j.oauth.accessToken=**************************************************
         -Dfacebook4j.oauth.permissions=email,publish_stream,...
-        -cp facebook4j-core-2.4.8.jar:yourApp.jar yourpackage.Main
+        -cp facebook4j-core-2.4.9.jar:yourApp.jar yourpackage.Main
 
 - - -
 
@@ -56,7 +56,7 @@ description: Facebook4J是开源的, Maven仓库管理. 你可以轻松使用Fac
     $ export facebook4j.oauth.appSecret=******************************************
     $ export facebook4j.oauth.accessToken=**************************************************
     $ export facebook4j.oauth.permissions=email,publish_stream,...
-    $ java -cp facebook4j-core-2.4.8.jar:yourApp.jar yourpackage.Main
+    $ java -cp facebook4j-core-2.4.9.jar:yourApp.jar yourpackage.Main
 
 在Heroku上面:
 
