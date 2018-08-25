@@ -66,8 +66,8 @@ Facebook.postStatusMessage() メソッドでメッセージ投稿できます。
 ## シェアする {#post_link}
 Facebook.postFeed() メソッドにURLや説明などを指定することでシェアできます。
 
-    PostUpdate post = new PostUpdate(new URL("http://facebook4j.org"))
-                        .picture(new URL("http://facebook4j.org/images/hero.png"))
+    PostUpdate post = new PostUpdate(new URL("https://facebook4j.github.io"))
+                        .picture(new URL("https://facebook4j.github.io/images/hero.png"))
                         .name("Facebook4J - A Java library for the Facebook Graph API")
                         .caption("facebook4j.org")
                         .description("Facebook4J is a Java library for the Facebook Graph API.");
@@ -75,8 +75,8 @@ Facebook.postFeed() メソッドにURLや説明などを指定することでシ
 
 Facebook.postLink() メソッドでURLのみやURLとメッセージだけでもシェアできます。
 
-    facebook.postLink(new URL("http://facebook4j.org"));
-    facebook.postLink(new URL("http://facebook4j.org"), "A Java library for the Facebook Graph API");
+    facebook.postLink(new URL("https://facebook4j.github.io"));
+    facebook.postLink(new URL("https://facebook4j.github.io"), "A Java library for the Facebook Graph API");
 
 - - -
 
