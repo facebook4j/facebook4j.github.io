@@ -1,0 +1,5 @@
+OK: facebook4j.TargetingGeoLocation Class
+NO DOC BLOCK: facebook4j.FeedTargetingParameter Method geoLocations(facebook4j.TargetingParameter)
+NO DOC BLOCK: facebook4j.FeedTargetingParameter Method getGeo_locations()
+NO DOC BLOCK: facebook4j.Post Method getPromotableId()
+NO DOC BLOCK: facebook4j.FeedTargetingParameter Method setGeoLocations(facebook4j.TargetingParameter)

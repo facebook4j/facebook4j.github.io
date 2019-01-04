@@ -7,6 +7,9 @@ keywords: versions,facebook4j
 # 版本列表
 
 ## 2.4.x {#v24x}
+[文档变化 2.4.12 - 2.4.13](/oldjavadocs/2.4.12-2.4.13/changes.html)  
+[文档变化 2.4.11 - 2.4.12](/oldjavadocs/2.4.11-2.4.12/changes.html)  
+[文档变化 2.4.10 - 2.4.11](/oldjavadocs/2.4.10-2.4.11/changes.html)  
 [文档变化 2.4.9 - 2.4.10](/oldjavadocs/2.4.9-2.4.10/changes.html)  
 [文档变化 2.4.8 - 2.4.9](/oldjavadocs/2.4.8-2.4.9/changes.html)  
 [文档变化 2.4.7 - 2.4.8](/oldjavadocs/2.4.7-2.4.8/changes.html)  
